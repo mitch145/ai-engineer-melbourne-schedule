@@ -30,6 +30,8 @@
   .chip.off{opacity:.36}
   .chip.starchip{border-color:var(--star)}
   .chip.starchip.on{background:var(--star);color:#1a1400;border-color:var(--star);font-weight:600}
+  .chip.nopechip{border-color:#ff7b7b66}
+  .chip.nopechip.on{background:#ff7b7b;color:#2a0000;border-color:#ff7b7b;font-weight:600}
   .search{margin-left:auto;display:flex;gap:8px;align-items:center}
   .search input{background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:8px 11px;font-size:13px;width:210px}
   .legendnote{color:var(--muted);font-size:12px;white-space:nowrap}
@@ -61,11 +63,13 @@
   .session.dim{opacity:.16;filter:grayscale(.6)}
   .session.hit{outline:2px solid var(--accent);outline-offset:0}
   .session.starred{border-color:var(--star);box-shadow:0 0 0 1px var(--star),0 2px 8px #0007;background:#262218}
+  .session.nope{opacity:.4;filter:grayscale(.7)}
+  .session.nope .t{text-decoration:line-through;text-decoration-color:#ff6b6b99}
 
-  .star{position:absolute;top:4px;right:4px;width:24px;height:24px;border:none;background:transparent;color:var(--muted);
-        font-size:16px;line-height:1;cursor:pointer;border-radius:6px;display:flex;align-items:center;justify-content:center;z-index:6}
-  .star:hover{background:#0005;color:var(--star)}
-  .star.on{color:var(--star)}
+  /* non-interactive status badge */
+  .marks{position:absolute;top:5px;right:6px;font-size:14px;line-height:1;z-index:6;pointer-events:none}
+  .marks.star{color:var(--star)}
+  .marks.nope{color:#ff7b7b}
 
   .nowline{position:absolute;left:0;right:0;height:0;border-top:2px solid #ff4d4d;z-index:12;box-shadow:0 0 8px #ff4d4d}
   .nowline::before{content:"NOW";position:absolute;left:4px;top:-8px;font-size:9px;font-weight:700;color:#ff4d4d;background:var(--bg);padding:0 4px}
@@ -75,7 +79,7 @@
   .timegroup{margin:0 0 4px}
   .timegroup h3{position:sticky;top:0;z-index:5;margin:0;padding:8px 2px 6px;font-size:13px;color:var(--muted);background:linear-gradient(180deg,var(--bg) 70%,transparent)}
   .lcard{position:relative;display:block;width:100%;text-align:left;background:var(--panel2);border:1px solid var(--line);border-left:4px solid var(--c);
-          border-radius:11px;padding:11px 42px 11px 13px;margin:0 0 9px;cursor:pointer;color:inherit}
+          border-radius:11px;padding:11px 34px 11px 13px;margin:0 0 9px;cursor:pointer;color:inherit}
   .lcard:active{transform:scale(.995)}
   .lcard .t{font-weight:600;font-size:15px;line-height:1.3;margin:0 0 5px}
   .lcard .meta{font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:7px;align-items:center}
@@ -84,7 +88,9 @@
   .lcard .tk .dot{width:8px;height:8px;border-radius:50%;background:var(--c)}
   .lcard .spk{font-size:12.5px;color:#c6d0dc;margin-top:5px}
   .lcard.starred{border-color:var(--star);box-shadow:0 0 0 1px var(--star);background:#262218}
-  .lcard .star{top:8px;right:8px;width:30px;height:30px;font-size:19px}
+  .lcard.nope{opacity:.45;filter:grayscale(.7)}
+  .lcard.nope .t{text-decoration:line-through;text-decoration-color:#ff6b6b99}
+  .lcard .marks{top:10px;right:12px;font-size:18px}
   .emptynote{color:var(--muted);text-align:center;padding:40px 0}
 
   /* modal */
@@ -101,8 +107,9 @@
   .card .spkrow .nm{font-weight:600;font-size:14px}
   .card .spkrow .jt{font-size:12px;color:var(--muted)}
   .card .top-row{display:flex;gap:10px;align-items:center;margin-bottom:14px}
-  .card .starbtn{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:11px;border-radius:10px;border:1px solid var(--line);background:var(--panel2);color:var(--ink);font-size:14px;font-weight:600;cursor:pointer}
-  .card .starbtn.on{background:var(--star);color:#1a1400;border-color:var(--star)}
+  .card .statuspill{flex:1;display:flex;align-items:center;gap:8px;padding:9px 13px;border-radius:10px;border:1px solid var(--line);background:var(--panel2);color:var(--muted);font-size:13.5px;font-weight:600}
+  .card .statuspill.star{background:#262218;color:var(--star);border-color:var(--star)}
+  .card .statuspill.nope{color:#ff7b7b;border-color:#ff7b7b55}
   .card .close{cursor:pointer;border:none;background:var(--panel2);color:var(--ink);border-radius:10px;width:42px;height:42px;font-size:20px;flex:none}
 
   @media (min-width:761px){ .modal{align-items:center;padding:20px} .card{border-radius:16px} }
@@ -121,6 +128,7 @@
   <div class="controls">
     <div class="daytabs" id="daytabs"></div>
     <button class="chip starchip" id="staronly">★ Starred</button>
+    <button class="chip nopechip" id="hidenope">⊘ Hide ruled-out</button>
     <div class="trackfilters" id="trackfilters"></div>
     <div class="search">
       <input id="search" type="search" placeholder="Search talks / speakers…" autocomplete="off">
@@ -141,29 +149,40 @@ const TRACK_COLORS = {
   "Leadership":"var(--lead)","AI Engineering":"var(--ai)","All":"var(--all)","Workshop":"var(--workshop)"
 };
 const PXMIN = 1.7, HEAD_H = 46, MOBILE_BP = 760;
-const STORE = 'aieng26-stars';
-const DEFAULT_STARS = ["6245259c-2daa-4e89-9d54-e6f890cdec95","6056e3a7-4bcf-403b-b85e-67abaa067001"];
+// Curated picks — edit these lists to change what's starred / ruled out for everyone.
+const DEFAULT_STARS = [
+  "6245259c-2daa-4e89-9d54-e6f890cdec95", // ADK pause/resume agents
+  "6056e3a7-4bcf-403b-b85e-67abaa067001", // AI Hamsters
+  "2d53e279-d883-4038-bc12-9b2594324b15", // Beyond Forgetful Bots
+  "c6901280-f221-476f-bf2d-2525ea77f8ee"  // Constitutional Prompting
+];
+const DEFAULT_NOPE = [
+  "8e52cb75-7a93-447a-85bd-f3f939d8397f", // Beyond Silicon Valley
+  "193d8c66-6a5b-40bc-a2a9-5811afd99661", // Stop Blocking, Start Building
+  "377b9ced-16f0-426f-9c03-a0cd2e4b329b", // Having your cake and eating it
+  "84770edf-b713-40c6-a44c-e31c3f81d735", // Panel: Governance & Ethics
+  "bb99f984-5555-4b3e-aa2a-e5b50d3ff571", // Building Frameworks Building Systems
+  "3a143407-d73d-4490-bcdf-01d470779e73", // Why AI coding tools might not make a difference
+  "5de6fa13-5f49-418f-88f2-5bcf5eb04ea9"  // The Software Engineer Who Don't Code
+];
 
 const toMin = t => { const [h,m]=t.split(':').map(Number); return h*60+m; };
 const fmt = t => { let [h,m]=t.split(':').map(Number); const ap=h>=12?'pm':'am'; h=h%12||12; return `${h}:${String(m).padStart(2,'0')}${ap}`; };
 const esc = s => (s==null?'':String(s)).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
-// ---- starred state (localStorage, seeded once) ----
-let stars;
-try{
-  const raw = localStorage.getItem(STORE);
-  stars = new Set(raw===null ? DEFAULT_STARS : JSON.parse(raw));
-  if(raw===null) localStorage.setItem(STORE, JSON.stringify([...stars]));
-}catch(e){ stars = new Set(DEFAULT_STARS); }
-function saveStars(){ try{ localStorage.setItem(STORE, JSON.stringify([...stars])); }catch(e){} }
-function toggleStar(id){ stars.has(id)?stars.delete(id):stars.add(id); saveStars(); render(); }
+// ---- starred + ruled-out state ----
+// Curated in code (DEFAULT_STARS / DEFAULT_NOPE above) — not editable from the page.
+const stars = new Set(DEFAULT_STARS);
+const nope  = new Set(DEFAULT_NOPE);
 
-let curDay = 0, starOnly = false;
+let curDay = 0, starOnly = false, hideNope = false;
 const trackOff = new Set();
 
-function starBtn(id){
-  const on = stars.has(id);
-  return `<button class="star ${on?'on':''}" aria-label="${on?'Unstar':'Star'}" data-star="${id}">${on?'★':'☆'}</button>`;
+// Non-interactive status badge shown on a card.
+function marks(id){
+  if(stars.has(id)) return `<span class="marks star" title="On my schedule">★</span>`;
+  if(nope.has(id))  return `<span class="marks nope" title="Ruled out">⊘</span>`;
+  return '';
 }
 
 function buildDayTabs(){
@@ -212,6 +231,7 @@ function renderList(day){
   day.tracks.forEach(t=>{ if(trackOff.has(t.name))return;
     t.sessions.forEach(s=>{
       if(starOnly && !stars.has(s.id)) return;
+      if(hideNope && nope.has(s.id)) return;
       if(!matchQ(s,q)) return;
       items.push({s,track:t.name});
     });
@@ -233,9 +253,9 @@ function renderList(day){
     }
     const spk=(s.speakers||[]).map(x=>x.full_name).filter(Boolean).join(', ');
     const el=document.createElement('div');
-    el.className='lcard'+(stars.has(s.id)?' starred':'');
+    el.className='lcard'+(stars.has(s.id)?' starred':'')+(nope.has(s.id)?' nope':'');
     el.style.setProperty('--c',TRACK_COLORS[track]||'#888');
-    el.innerHTML=`${starBtn(s.id)}
+    el.innerHTML=`${marks(s.id)}
       <p class="t">${esc(s.title)}</p>
       <div class="meta"><span class="tk"><span class="dot"></span>${esc(track)}</span><span class="badge">${esc(s.type)}</span>${s.location?`<span>${esc(s.location)}</span>`:''}</div>
       ${spk?`<div class="spk">${esc(spk)}</div>`:''}`;
@@ -284,14 +304,15 @@ function renderGrid(day){
     for(let m=lo;m<=hi;m+=60){ const hl=document.createElement('div'); hl.className='hourline'; hl.style.top=((m-lo)*PXMIN)+'px'; area.appendChild(hl); }
     t.sessions.forEach(s=>{
       if(starOnly && !stars.has(s.id)) return;
+      if(hideNope && nope.has(s.id)) return;
       const top=(toMin(s.start_time)-lo)*PXMIN;
       const h=Math.max((toMin(s.end_time)-toMin(s.start_time))*PXMIN, 22);
       const el=document.createElement('div');
-      el.className='session'+(h<40?' tiny':'')+(stars.has(s.id)?' starred':'');
+      el.className='session'+(h<40?' tiny':'')+(stars.has(s.id)?' starred':'')+(nope.has(s.id)?' nope':'');
       el.style.top=top+'px'; el.style.height=(h-4)+'px';
       el.style.setProperty('--c',TRACK_COLORS[t.name]||'#888');
       const spk=(s.speakers||[]).map(x=>x.full_name).filter(Boolean).join(', ');
-      el.innerHTML=`${starBtn(s.id)}<p class="t">${esc(s.title)}</p>
+      el.innerHTML=`${marks(s.id)}<p class="t">${esc(s.title)}</p>
         <div class="meta"><span class="badge">${esc(s.type)}</span><span>${fmt(s.start_time)}–${fmt(s.end_time)}</span>${s.location?`<span>· ${esc(s.location)}</span>`:''}</div>
         ${spk?`<div class="spk">${esc(spk)}</div>`:''}`;
       bindCard(el,s,t.name);
@@ -308,11 +329,7 @@ function renderGrid(day){
 }
 
 function bindCard(el,s,track){
-  el.addEventListener('click',e=>{
-    const sb=e.target.closest('[data-star]');
-    if(sb){ e.stopPropagation(); toggleStar(sb.getAttribute('data-star')); return; }
-    openModal(s,track);
-  });
+  el.addEventListener('click',()=>openModal(s,track));
 }
 function setCount(n,q,hits){
   document.getElementById('count').textContent = q ? `${hits||0} match${hits===1?'':'es'}` : (starOnly?`${n} starred`:`${n} sessions`);
@@ -320,7 +337,7 @@ function setCount(n,q,hits){
 
 function openModal(s,track){
   const card=document.getElementById('card');
-  const on=stars.has(s.id);
+  const on=stars.has(s.id), isNope=nope.has(s.id);
   const spk=(s.speakers||[]).map(x=>`
     <div class="spkrow">
       ${x.photo_url?`<img src="${x.photo_url}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">`:'<img alt="">'}
@@ -328,14 +345,13 @@ function openModal(s,track){
     </div>`).join('');
   card.innerHTML=`
     <div class="top-row">
-      <button class="starbtn ${on?'on':''}" id="mstar">${on?'★ Going':'☆ Add to my schedule'}</button>
+      ${on?'<span class="statuspill star">★ On my schedule</span>':isNope?'<span class="statuspill nope">⊘ Ruled out</span>':'<span class="statuspill">Not yet decided</span>'}
       <button class="close" onclick="closeModal()">×</button>
     </div>
     <h2>${esc(s.title)}</h2>
     <div class="cmeta"><span class="badge">${esc(s.type)}</span><span>${esc(track)}</span><span>${fmt(s.start_time)}–${fmt(s.end_time)}</span>${s.location?`<span>${esc(s.location)}</span>`:''}</div>
     ${s.description?`<div class="desc">${esc(s.description)}</div>`:''}
     ${spk?`<div class="spklist">${spk}</div>`:''}`;
-  card.querySelector('#mstar').onclick=()=>{ toggleStar(s.id); openModal(s,track); };
   document.getElementById('modal').classList.add('open');
 }
 function closeModal(){document.getElementById('modal').classList.remove('open');}
@@ -343,6 +359,7 @@ document.getElementById('modal').onclick=e=>{if(e.target.id==='modal')closeModal
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
 document.getElementById('search').addEventListener('input',render);
 document.getElementById('staronly').onclick=()=>{starOnly=!starOnly;render();};
+document.getElementById('hidenope').onclick=()=>{hideNope=!hideNope;render();};
 
 let rt; window.addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(render,120);});
 
