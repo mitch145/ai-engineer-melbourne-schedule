@@ -1,0 +1,1919 @@
+{
+  "conference": {
+    "slug": "ai-engineer-melbourne-2026",
+    "name": "AI Engineer Melbourne 2026",
+    "url": "https://webdirections.org/ai-engineer/"
+  },
+  "updated_at": "2026-06-02T11:59:21.869Z",
+  "count": 92,
+  "speakers": [
+    {
+      "id": "24f88332-548d-4e9f-adeb-f83f77c65afe",
+      "slug": "aaron-montana",
+      "full_name": "Aaron Montana",
+      "job_title": "Head of Experimentation",
+      "employer": "LaunchDarkly",
+      "bio": "Aaron serves as the Head of Experimentation at LaunchDarkly, leading a practice that integrates experimentation directly into the software delivery lifecycle. He works alongside product and engineering teams to develop and validate technical frameworks that allow developers to ship code with confidence and precision. With over a decade as a software engineer and practitioner across several major technical verticals in Accenture, IBM, Rackspace and Clearhead. His expertise focuses on moving teams beyond basic feature toggles toward advanced Progressive Delivery models.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/24f88332-548d-4e9f-adeb-f83f77c65afe?v=1778614811791",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "288275a3-9b91-49ac-ae22-767e4945d5d8"
+      ]
+    },
+    {
+      "id": "1e3afd04-a64a-444a-9c29-76d954455028",
+      "slug": "abdul-karim",
+      "full_name": "Abdul Karim",
+      "job_title": "Applied AI Scientist",
+      "bio": "Abdul Karim is ML a researcher and engineer with around a decade in applied AI.\r\n\r\nHis work spans LLM evaluation, agentic systems, RL training, and the data-flywheel side of vertical AI products.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/1e3afd04-a64a-444a-9c29-76d954455028",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/abdul-karim-phd-61507015b/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "2c0743b7-af39-4199-8c99-fafccbb4d58d"
+      ]
+    },
+    {
+      "id": "28852ce6-14f5-4f83-8b2a-e9751f9aab60",
+      "slug": "adam-hudson",
+      "full_name": "Adam Hudson",
+      "pronouns": "he/him",
+      "job_title": "Software Engineer",
+      "employer": "Notion",
+      "bio": "Adam Hudson is a software engineer with over 20 years of industry experience and a PhD in engineering. He has worked on the data platform team at Notion since 2021, first in San Francisco and now based in Sydney. Highlights of his work there include building enterprise workspace analytics, expanding Notion’s infrastructure to the European data centre, and evolving the company’s analytics event logging systems.\n\nBefore joining Notion, Adam worked on large-scale data and streaming systems across big tech, startups, gaming, and finance, including roles at Uber in Silicon Valley and Wargaming Sydney.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/28852ce6-14f5-4f83-8b2a-e9751f9aab60?v=1774136228447",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "bb1975f2-b535-403a-894f-99d3448c9fa9"
+      ]
+    },
+    {
+      "id": "4b01fc40-3a8a-437e-abdc-021aaad8e655",
+      "slug": "adesh-gairola",
+      "full_name": "Adesh Gairola",
+      "pronouns": "He/Him",
+      "job_title": "Co-founder & CTO",
+      "employer": "raxIT Labs",
+      "bio": "Adesh Gairola is an AI security nerd who has spent over a decade and a half breaking and fixing things across network, cloud, and AI security. At Cisco, he led a 30-person Asia Pacific VPN security team. At AWS, he moved from cloud security engineering to consulting, giving him a rare dual perspective: he knows how to build secure systems and how to assess them against the policies and frameworks enterprises actually care about. OWASP LLM Top 10 contributor.\r\n\r\nNow he's building raxIT (raxit.ai), a security platform for AI agents. His open-source work includes GrayZoneBench (AI safety benchmark at bench.raxit.ai) and Securing Ralph Loop (security architecture for autonomous coding agents). He also runs the AI Security Circle, a meetup group in Sydney.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/4b01fc40-3a8a-437e-abdc-021aaad8e655?v=1780314597896",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "LinkedIn: linkedin.com/in/adeshgairolaX/Twitter: x.com/adeshgairolaBluesky: bsky.app/profile/adesh.raxit.ai",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://raxit.ai/"
+      },
+      "presentation_ids": [
+        "ae417b14-ec40-4352-ba71-9acde0c99d72"
+      ]
+    },
+    {
+      "id": "e3cfdc31-2952-4db1-8124-21bf9d6bbba8",
+      "slug": "aj-fisher",
+      "full_name": "AJ Fisher",
+      "pronouns": "he / him",
+      "job_title": "Technologist & Writer",
+      "employer": "ajfisher.me",
+      "bio": "AJ Fisher is a technologist and writer working at the intersection of AI, web, media and digital innovation. A regular speaker at Web Directions conferences, AJ brings a pragmatic, builder-first perspective to how emerging technologies reshape software engineering practice. He writes at ajfisher.me, where he explores everything from agentic coding workflows and local LLM setups to the strategic implications of AI adoption in the enterprise.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/e3cfdc31-2952-4db1-8124-21bf9d6bbba8?v=1774136217976",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "x: @ajfisher\nbs: @ajfisher.social\nLI: https://www.linkedin.com/in/andrewfisher/\nw: https://ajfisher.me\ngh: github.com/ajfisher",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://ajfisher.me"
+      },
+      "presentation_ids": [
+        "59f339cd-b291-4836-8ee0-f0e3cd6629b3",
+        "95401c3b-ce1b-4993-b6bd-a1f0d76080df",
+        "dd137234-c9fb-47cd-925e-73d1ee567198"
+      ]
+    },
+    {
+      "id": "bfdb4005-61cc-4ebb-bf07-dd3a28cbd538",
+      "slug": "aldo-schumann",
+      "full_name": "Aldo Schumann",
+      "job_title": "Developer Success Engineer",
+      "employer": "Vercel",
+      "bio": "Also Schumann is a  developer and UX designer with 8+ years of experience working with clients in government, enterprise, healthcare and finance sectors.\r\n\r\nHe enjoys client-facing, technical and strategic roles delivering impactful solutions.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/bfdb4005-61cc-4ebb-bf07-dd3a28cbd538?v=1778197219738",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "41ca9dd6-13fc-46e6-bf07-5558b29725e7"
+      ]
+    },
+    {
+      "id": "4d11678c-cd62-4350-8c50-32de58475d96",
+      "slug": "ally-macdonald",
+      "full_name": "Ally Macdonald",
+      "pronouns": "she/her",
+      "job_title": "Staff Builder",
+      "employer": "Stile Education",
+      "bio": "Ally (or AIly, or (a)LL(y)M) is a software engineer who likes seeing large varieties of things Just Work™ — be it pressing a button and see data transform in front of her, or deleting code and seeing software get faster. She started at Stile Education in 2021, and after a short-lived venture into corporate software, she returned to work as an Staff Builder in AI Labs at Stile (now owned by Curriculum Associates). She loves pandas. And home data pipelines. And data hoarding. And lists whose entries are sentence fragments that begin with `And`. And deleting code. And being noncommittally opinionated.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/4d11678c-cd62-4350-8c50-32de58475d96?v=1774136233449",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://github.com/AllyMarthaJ"
+      },
+      "presentation_ids": [
+        "bb99f984-5555-4b3e-aa2a-e5b50d3ff571"
+      ]
+    },
+    {
+      "id": "c3534f0b-dc48-4b9e-b4bc-b4ea9c1518a6",
+      "slug": "anannya-roy-chowdhury",
+      "full_name": "Anannya Roy Chowdhury",
+      "pronouns": "she/her",
+      "job_title": "GenAI Developer Advocate",
+      "employer": "AWS",
+      "bio": "Anannya Roy is an AI Engineer and Architect specializing in agentic systems, production-grade GenAI, and Responsible AI design. As a GenAI Developer Advocate at AWS, she works at the intersection of multi-agent architectures, observability, and real-world AI deployment—helping developers move from demos to scalable, trustworthy systems.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/c3534f0b-dc48-4b9e-b4bc-b4ea9c1518a6?v=1774136301235",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/royanannya/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://sessionize.com/royanannya/"
+      },
+      "presentation_ids": [
+        "6efff0dd-3cba-40b7-9b29-11321be7b096"
+      ]
+    },
+    {
+      "id": "88174412-65e8-4b74-85a0-550d616fa723",
+      "slug": "ananya-roy",
+      "full_name": "Ananya Roy",
+      "pronouns": "She",
+      "job_title": "AI Architect",
+      "employer": "Databricks",
+      "bio": "Ananya Roy is a Staff AI/ML Specialist Solution Architect at Databricks, based in Sydney. She works directly with enterprise AI teams across globe on the hardest part of agent development — getting them to work reliably in production, not just in POCs. She spends most of her time on agent evaluation, reliability patterns, and the failure modes that only show up after deployment.\r\nShe has published technical work on responsible AI, agent evaluation pipelines, and autonomous AI assistants, and has spoken at Data + AI Summit, Data Intelligence Day, and other technical conferences. Before Databricks, she was at AWS helping customers build and ship AI solutions.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/88174412-65e8-4b74-85a0-550d616fa723?v=1774136253501",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/ananya-roy-87705133/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "8699baf3-d7cd-4065-9d4c-e22ab1a36f35"
+      ]
+    },
+    {
+      "id": "5b78ff0f-79ed-4850-9333-c585516c7ef8",
+      "slug": "andre-kolodochka",
+      "full_name": "Andre Kolodochka",
+      "job_title": "Solutions Engineer",
+      "employer": "Sonar",
+      "bio": "Andre Kolodochka is a Solutions Engineer at Sonar, where he helps engineering teams across the ANZ and APAC regions ship more secure software, bridging deep technical expertise with clear business outcomes for stakeholders ranging from startup founders to enterprise executives.\r\n\r\nWith more than 25 years of experience spanning software development, IT infrastructure, security governance, and technical presales, Andre brings a rare cross-functional perspective to the intersection of developer tooling and application security. Over his distinguished career, he has held impactful roles at leading technology organizations including GitHub, ServiceRocket, and Symantec, operating across Australia, Korea, and China.\r\n\r\nOutside of his enterprise security work, Andre applies the same passion for precision, learning, and teaching to the skies as an accomplished glider pilot and flight instructor.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/5b78ff0f-79ed-4850-9333-c585516c7ef8?v=1779965199018",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "b0119233-cb8e-4533-ab37-15513ec59c6d"
+      ]
+    },
+    {
+      "id": "1b33891f-3253-4a6c-9a96-4334beedf25a",
+      "slug": "andrew-murphy",
+      "full_name": "Andrew Murphy",
+      "job_title": "CEO (Chief Everything Officer.)",
+      "employer": "Debugging Leadership",
+      "bio": "Andrew is the founder of Debugging Leadership, a platform combining a kanban-based leadership program, a library of templates and resources, and add-on extensions to help people become great tech leaders.\r\n\r\nAndrew began his career as a software engineer before being promoted into management — and like many engineers making that transition, quickly discovered that leadership is a whole new skillset. He had to figure it out as he went, progressing through roles across consultancies and SaaS companies over more than 15 years leading engineering teams.\r\n\r\nThat experience shaped everything he now does. Having coached hundreds of managers stepping into leadership for the first time, Andrew kept seeing the same pattern: brilliant engineers promoted without the skills or support to succeed. Debugging Leadership is his answer to that problem — a single platform where new and aspiring tech leaders can learn, build, and practise real leadership skills, with the support they need to make the transition well.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/1b33891f-3253-4a6c-9a96-4334beedf25a?v=1776251588737",
+      "speaker_type": "MC",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "84770edf-b713-40c6-a44c-e31c3f81d735",
+        "26397c8c-d5fe-4d6a-808d-1aaf42356024"
+      ]
+    },
+    {
+      "id": "d81683b0-6749-4d4c-8bfc-5a2b4e73b094",
+      "slug": "andy-kelk",
+      "full_name": "Andy Kelk",
+      "pronouns": "He/Him",
+      "job_title": "Fractional CTO",
+      "employer": "Self Employed",
+      "bio": "Andy Kelk has spent 25 years building and scaling technology organisations. In senior leadership roles at REA Group, Marketplacer, Australia Post, and Wesfarmers OneDigital, he has architected platforms handling billions in transactions and grown engineering teams from 15 to 100+. He's led AI adoption programmes across engineering organisations and seen firsthand how the human side of that change is consistently harder than the technical side.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/d81683b0-6749-4d4c-8bfc-5a2b4e73b094?v=1774136240882",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/andykelk/\nhttps://bsky.app/profile/andykelk.net",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://www.andykelk.net/"
+      },
+      "presentation_ids": [
+        "a5c632e9-6eb5-4e06-9f8d-652dbcc40031",
+        "dd137234-c9fb-47cd-925e-73d1ee567198"
+      ]
+    },
+    {
+      "id": "55e03617-562b-4425-a628-7154284e5979",
+      "slug": "annie-vella",
+      "full_name": "Annie Vella",
+      "job_title": "Distinguished Engineer",
+      "employer": "Westpac New Zealand",
+      "bio": "Annie Vella is a Distinguished Engineer at Westpac New Zealand, where she focuses on AI adoption, software engineering transformation, and systems thinking. With over 20 years of experience across startups, scale-ups, and large enterprises in four countries, she has spent two decades on both sides of the engineer/manager pendulum — and actively encourages others to do the same. Having fallen in love with computers when she got her first Commodore 64 at age six, Annie has cared deeply about the craft ever since. That curiosity led to a Master’s of Engineering exploring how professional software engineers experience the impact of AI coding assistants. Through her writing and speaking, Annie’s aim is to help engineers and leaders find joy and pride in the work ahead.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/55e03617-562b-4425-a628-7154284e5979?v=1774136309020",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://annievella.com"
+      },
+      "presentation_ids": [
+        "cc043bba-6d57-4082-ae3c-75045603c32b"
+      ]
+    },
+    {
+      "id": "5ccbddeb-ba84-4537-9fd9-e3c494f8554f",
+      "slug": "ashling-james",
+      "full_name": "Ashling James",
+      "job_title": "Director, Digital Economy and Innovation Policy",
+      "employer": "Department of Jobs, Skills, Industry and Regions",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/5ccbddeb-ba84-4537-9fd9-e3c494f8554f?v=1780354480824",
+      "speaker_type": "speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "6229fde5-cef0-4a30-8f7e-2717dfb505ab"
+      ]
+    },
+    {
+      "id": "7b0d4c27-0ae8-46d5-95e0-965adef9bc20",
+      "slug": "aubrey-blanche",
+      "full_name": "Aubrey Blanche",
+      "job_title": "Founder",
+      "employer": "The Mathpath",
+      "bio": "Aubrey Blanche is an expert and executive in equitable people and culture, ethical business operations, and responsible AI. Known as “The Mathpath” — math nerd meets empath — she combines an intersectional, data-driven approach with deep empathy to help organisations build AI systems that serve diverse communities fairly. A recovering American now based in Australia, Aubrey advises a portfolio of organisations on embedding equitable design into their operations, programs, and products. Her work on responsible AI examines how large language models trained on biased datasets risk perpetuating and exacerbating social and institutional biases — and what builders can do about it. She sits on the Board of Directors of the Culture Amp Foundation and Circle of Blue, and her writing and speaking have been featured in Wired, the Wall Street Journal, the Australian Financial Review, and USA Today.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/7b0d4c27-0ae8-46d5-95e0-965adef9bc20?v=1774136311455",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "8e52cb75-7a93-447a-85bd-f3f939d8397f",
+        "84770edf-b713-40c6-a44c-e31c3f81d735"
+      ]
+    },
+    {
+      "id": "5ab3308a-c97f-432f-badf-d0a1dce022b6",
+      "slug": "avni-bhatt",
+      "full_name": "Avni Bhatt",
+      "pronouns": "She/Her",
+      "job_title": "Sr Enterprise Architect",
+      "bio": "Avni Bhatt is a Senior Enterprise Architect. Her role spans the full spectrum including enterprise architecture, data architecture, solution and integration design, technical delivery management, and building high-performing teams from the ground up. \r\n\r\nAvni works across the full enterprise stack — Azure, AWS and GCP, Azure OpenAI, Azure ML and more — and is energised by opportunities where innovation meets scale and where the right architecture is considered as an investment.\r\n\r\nShe writes at [The Finally Block](https://thefinallyblock.com/)",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/5ab3308a-c97f-432f-badf-d0a1dce022b6?v=1774136291936",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "LinkedIn: https://www.linkedin.com/in/avni-bhatt/ , YouTube: https://www.youtube.com/@TheFinallyBlock",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://thefinallyblock.com/"
+      },
+      "presentation_ids": [
+        "665cc753-e86b-4d2a-bd73-44b618481ef8"
+      ]
+    },
+    {
+      "id": "0f5d81ad-cb5e-4742-a4e0-af28e08d45f6",
+      "slug": "balram-singh",
+      "full_name": "Balram Singh",
+      "pronouns": "He/him",
+      "job_title": "AI architect",
+      "employer": "Publicis Sapient",
+      "bio": "Balram Singh is a full-stack engineer and architect with 13+ years of experience in web and mobile development. He works at Publicis Sapient in Australia and focuses on applying AI to improve development workflows and solve real-world system challenges. His interests include building scalable systems and exploring how small teams can leverage AI to deliver complex products efficiently.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/0f5d81ad-cb5e-4742-a4e0-af28e08d45f6?v=1774136177722",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/balramsingh/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "8dea2213-854e-45d4-a926-21adb2bd29ae",
+        "95401c3b-ce1b-4993-b6bd-a1f0d76080df"
+      ]
+    },
+    {
+      "id": "598c6c41-3df0-4df4-a805-4d06cee2520c",
+      "slug": "ben-taylor",
+      "full_name": "Ben Taylor",
+      "pronouns": "he/him",
+      "job_title": "Product Engineering Team Lead",
+      "employer": "Stile Education",
+      "bio": "Ben runs Product Engineering at Stile Education and is the creator of Runno, an open-source browser-based runtime for programming languages and WebAssembly binaries. With over a decade of experience in front-end and mobile development, he’s passionate about making technology more accessible and has a particular focus on Educational Technology.\n\nWhen he’s not building software that bridges the gap between complex systems and human needs, Ben can be found rock climbing, making games, DJing, or volunteer teaching. His approach to development centers on design, usability, and interfaces that serve people—whether that’s students learning to code, developers building applications, or AI systems trying to execute user requests safely.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/598c6c41-3df0-4df4-a805-4d06cee2520c?v=1774136190227",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/taybenlor/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://taybenlor.com"
+      },
+      "presentation_ids": [
+        "fd14214b-c2d6-4141-aa9d-23215db9cafc"
+      ]
+    },
+    {
+      "id": "92c283b4-5592-4ee5-ade3-98df5b02910a",
+      "slug": "birger-halfmeier",
+      "full_name": "Birger Halfmeier",
+      "pronouns": "he/him/his/himself",
+      "job_title": "Senior Cloud Architect",
+      "employer": "DoiT International",
+      "bio": "Birger works with hundreds of engineering teams on cloud architecture and has developed an unfortunate habit of noticing patterns people were hoping to classify as isolated incidents.\r\nHe has been building software professionally since 2004, which means he remembers when Agile was still demanding, pair programming involved two humans, and “digital transformation” had not yet absorbed every noun in the building. He may be the only speaker today trying to explain AI engineering through a 1940s essay on stupidity. He previously argued that frugality is not the same as being cheap. He has since discovered what is.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/92c283b4-5592-4ee5-ade3-98df5b02910a?v=1778630241230",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/birgerhalfmeier/",
+        "linkedin": "https://www.linkedin.com/in/birgerhalfmeier/",
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://www.doit.com/"
+      },
+      "presentation_ids": [
+        "815d54fe-4166-4f0f-a341-c83b23e3d039"
+      ]
+    },
+    {
+      "id": "998ca65c-e3e0-48e1-8f9b-76dac2a792f3",
+      "slug": "bojan-zivic",
+      "full_name": "Bojan Zivic",
+      "job_title": "Director - AI & Modernisation",
+      "employer": "V2ai",
+      "bio": "Bojan Zivic is Director of AI & Modernization at V2 AI , where he leads enterprise AI platform implementations for Australia's largest institutions. Specializing in transforming legacy systems through agentic AI frameworks and multi-agent architectures, Bojan has successfully delivered production AI applications that serve diverse users: from Business Analysts and Delivery Leads to Principal and Junior Software Engineers.\n\nWith six years modernizing enterprise tech stacks and the last three years focused on AI-driven transformation, Bojan has architected comprehensive AI platforms for regulated industries, built multi-agent systems for complex business processes, and established frameworks that democratize AI tooling across organizations. His hands-on approach bridges the gap between cutting-edge AI capabilities and pragmatic enterprise adoption.\n\nAn AWS Ambassador and Community Builder, Bojan remains deeply connected to the developer community, hosting the Brisbane Serverless User Group and Sydney AWS Programming and Tools Meetup. He's a sought-after speaker at AWS re:Invent, AWS Summit Sydney, CloudCon, and ServerlessDays, and author of a book on Cloud Native Anti-patterns.\n\nBojan's mission is simple: make transformative AI technology accessible, practical, and production-ready for enterprises navigating modernization.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/998ca65c-e3e0-48e1-8f9b-76dac2a792f3?v=1774258095104",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": "https://www.linkedin.com/in/bojan-zivic-65431033/",
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://profile.stateofserverless.tech/"
+      },
+      "presentation_ids": [
+        "6fcd869f-6384-4ea0-80d2-813ca1e18389"
+      ]
+    },
+    {
+      "id": "429b809f-62da-4eea-85b0-f61b0030e4f7",
+      "slug": "charli-posner",
+      "full_name": "Charli Posner",
+      "pronouns": "she/her",
+      "job_title": "Builder",
+      "employer": "Stile Education",
+      "bio": "Charli Posner is an AI engineer exploring the limits of modern AI models in real-world systems.\n\nAt Stile Education, she builds production AI systems — from pipelines that scan handwritten student work into the platform to image editing workflows for illustrated characters. She also develops infrastructure for evaluating and improving LLM outputs across product features and internal tools.\n\nHer work spans LLM pipelines, vector databases, computer vision, and deep learning, including research in human pose estimation at Toshiba and the University of Bristol. She focuses on the practical challenges of deploying AI systems: handling noisy inputs, unpredictable outputs, and making models reliable in real-world applications.\n\nOutside of work, she builds creative AI projects such as interactive pose-tracking installations and writes technical blogs documenting experiments with emerging AI tools.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/429b809f-62da-4eea-85b0-f61b0030e4f7?v=1774136202650",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/charli-posner-41195b20a/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://charliposner.com/"
+      },
+      "presentation_ids": [
+        "66368878-30b6-4d89-a3a5-079e65cac6e4"
+      ]
+    },
+    {
+      "id": "4d680b1b-d6a3-4509-825f-40df80213060",
+      "slug": "chris-rickard",
+      "full_name": "Chris Rickard",
+      "pronouns": "He",
+      "job_title": "Founder & CEO",
+      "employer": "Userdoc",
+      "bio": "Chris Rickard is the Founder and CEO of Userdoc, an AI-powered requirements management workspace, that helps teams turn existing knowledge and code into clear, living functional specs (for AI to implement). With 20+ years leading software teams across Australia, Canada, and the US,  Chris now focuses on the real bottleneck in software delivery - clear, reliable specs.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/4d680b1b-d6a3-4509-825f-40df80213060?v=1774136255936",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/chrickard/ https://x.com/chrisrickard",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://userdoc.com"
+      },
+      "presentation_ids": [
+        "7cc0e242-2595-4767-a394-5d0b52d32c76"
+      ]
+    },
+    {
+      "id": "cd30697f-0187-4bd8-8668-54b99c5ad720",
+      "slug": "daizen-ikehara",
+      "full_name": "Daizen Ikehara",
+      "pronouns": "he",
+      "job_title": "Principal Developer Advocate",
+      "employer": "Auth0",
+      "bio": "Daizen Ikehara joined the Developer Relations team in March 2023 as a Principal Developer Advocate. In the early stages of his professional career, Daizen started using C#. Then, he touched on various JavaScript technologies/frameworks—Angular, React, and Vue. Recently, he’s been using Node.js/JavaScript more often. He is passionate about talking with developers. Outside of work, Daizen likes to take long walks, play video games, and watch Formula 1 racing.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/cd30697f-0187-4bd8-8668-54b99c5ad720?v=1775180560942",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://x.com/neri78",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://auth0.com/blog/authors/daizen-ikehara/"
+      },
+      "presentation_ids": [
+        "a3bfa109-6f61-414e-bcb3-bd3068e2562f",
+        "78b4af9a-3a5a-4ebe-bf01-a207a552da05"
+      ]
+    },
+    {
+      "id": "f8d4f32b-0131-4917-99f1-36dec3244515",
+      "slug": "daniel-apps",
+      "full_name": "Daniel Apps",
+      "job_title": "Head of Solutions",
+      "employer": "ResetData",
+      "bio": "Daniel Apps is Head of Solutions at ResetData, with over 15 years experience designing and delivering hybrid cloud solutions across healthcare, energy and critical infrastructure. A long-standing Microsoft MVP and former Principal Consultant at Fusion5 and Vigilant.IT, Daniel brings deep expertise in Azure, hybrid architecture and AI-ready platforms, helping customers balance flexibility, control and performance at scale.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/f8d4f32b-0131-4917-99f1-36dec3244515?v=1779872824180",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "a3167048-077d-476d-9348-2ceb24fe8076"
+      ]
+    },
+    {
+      "id": "dbb3f2e9-1c47-4553-b239-aafed793cfbc",
+      "slug": "daniel-nadasi",
+      "full_name": "Daniel Nadasi",
+      "pronouns": "He/Him",
+      "job_title": "Principal Engineer",
+      "employer": "Google",
+      "bio": "Daniel serves as a Principal Engineer for the Office of Cross Google Engineering and global co-chair of Software Engineering Steering for Google. Prior to this Daniel has led cross-functional teams across the software stack including Google’s geographic database and processing infrastructure, Google Photos, Google My Business Locations, and Google Tasks among others. His experience traverses the technical spectrum and includes infrastructure, machine learning, mobile and web.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/dbb3f2e9-1c47-4553-b239-aafed793cfbc?v=1774136274053",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "LinkedIn: nadasi",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "c9667f3a-9cad-4df9-9ca5-2facc06e8207"
+      ]
+    },
+    {
+      "id": "f3bdc2a0-a6cd-4e70-9cd1-70dee995657f",
+      "slug": "daniel-rodgers-pryor",
+      "full_name": "Daniel Rodgers-Pryor",
+      "pronouns": "He/Him",
+      "job_title": "Head of Stile AI Labs",
+      "employer": "Stile Education",
+      "bio": "Daniel’s academic background in Condensed Matter Physics designing AI chips gave him a passion for promoting scientific literacy and the skills to manage complex computing systems. Daniel joined Stile in 2014 and stepped into the role of CTO in 2017. Since 2025, Daniel has led the Stile AI Lab as a division of Curriculum Associates.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/f3bdc2a0-a6cd-4e70-9cd1-70dee995657f?v=1774136281585",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "careers.stile.dev"
+      },
+      "presentation_ids": [
+        "c4814775-18df-46bd-9cfc-df675cc9905f"
+      ]
+    },
+    {
+      "id": "b6a8dbc1-e3ae-4742-9dac-859a05980770",
+      "slug": "danila-sashchenko",
+      "full_name": "Danila Sashchenko",
+      "pronouns": "He",
+      "job_title": "Security Engineer, previously Offensive Security Engineer",
+      "employer": "TikTok",
+      "bio": "I previously worked as a Red Team professional in Russia. Our clients included some of the country’s largest manufacturing enterprises, financial institutions, and banks. Following our engagements, none of these organizations reported successful breaches related to the attack scenarios we tested. Across our Red Team exercises, we maintained a success rate of over 90%.\r\n\r\nAfter relocating to Sydney, I continued my career as an Offensive Security Engineer, with a strong focus on security engineering and blue-team training. My approach has always been deeply technical and hands-on, centered on low-level exploitation techniques and realistic attack scenarios. This background naturally led to building highly automated, practical security solutions—an experience that now allows me to design systems that are both effective and production-ready. After I moved to Security Engineering, all of my skills which I was able to get before working in the Offensive domain, were used to quickly build and introduce solutions, like the one I am going to told on the conference.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/b6a8dbc1-e3ae-4742-9dac-859a05980770?v=1774136286710",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/danila-saschenko-a4458624b/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "3597a28e-f207-4af3-b9ea-2429c6f6b751"
+      ]
+    },
+    {
+      "id": "0b5b0118-75e8-4a3f-be8c-47c0ad5f8358",
+      "slug": "dave-hall",
+      "full_name": "Dave Hall",
+      "pronouns": "he/him",
+      "job_title": "Principal Consultant",
+      "employer": "Dave Hall Consulting",
+      "bio": "Dave Hall is the Principal Consultant and Founder of Dave Hall Consulting, a Canberra-based technology consultancy with over two decades of experience delivering automation, cloud, and DevOps solutions to clients ranging from early-stage startups to Fortune 50 enterprises.\r\n\r\n\r\nHis work focuses on using automation to drive organisational efficiency and on matching the right tool to the problem at hand. An experienced conference speaker and keynote presenter, Dave created Gata Router to solve a real-world routing challenge and ended up with a case study in pragmatic AI engineering.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/0b5b0118-75e8-4a3f-be8c-47c0ad5f8358?v=1774136210191",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://linkedin.com/in/davehall",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://davehall.com.au"
+      },
+      "presentation_ids": [
+        "c1f5da3b-4003-4e79-aa86-d212354d38f7",
+        "dd137234-c9fb-47cd-925e-73d1ee567198"
+      ]
+    },
+    {
+      "id": "739eb498-bd22-4cba-a835-cf6de597a084",
+      "slug": "dave-slutzkin",
+      "full_name": "Dave Slutzkin",
+      "pronouns": "he/him",
+      "job_title": "CEO",
+      "employer": "Cadence",
+      "bio": "I've been coding for 25+ years and I spent the last year buried in AI coding session logs, helping real devs to improve. I'm co-founder and CEO of Cadence, which analyses terabytes of real sessions across all the coding tools to work out what actually makes AI-assisted coding effective. Previously I founded Flippa and SitePoint, and was CTO of Steppen (acquired).",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/739eb498-bd22-4cba-a835-cf6de597a084?v=1774136197598",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/daveslutzkin/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://teamcadence.ai/"
+      },
+      "presentation_ids": [
+        "8586641c-b0fe-4048-8135-f297f1e139da"
+      ]
+    },
+    {
+      "id": "ae248982-fee7-4d14-a137-84b1eaed7f8a",
+      "slug": "david-lewis",
+      "full_name": "David Lewis",
+      "job_title": "Engineering Manager",
+      "employer": "Nine Entertainment",
+      "bio": "David has been a software engineer since the late 90s. The last eleven years have focused on engineering leadership. Currently, he is the Engineering Manager for Publishing Architecture at Nine Entertainment.\r\n\r\nHe's passionate about fostering positive engineering cultures and for 10 years coordinated SydCSS, one of Sydney's largest and most popular tech meetups.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/ae248982-fee7-4d14-a137-84b1eaed7f8a?v=1778526321619",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://www.david-lewis.com"
+      },
+      "presentation_ids": [
+        "f3d3d65b-41f2-4440-bc4f-c4871b7b5478"
+      ]
+    },
+    {
+      "id": "af498586-6ebd-405c-8971-500f375b5a41",
+      "slug": "dr-christian-dandre",
+      "full_name": "Dr Christian Dandre",
+      "pronouns": "He/Him",
+      "job_title": "Founder and Principal Consultant",
+      "employer": "The Objective Company",
+      "bio": "Dr Christian Dandre is a software developer, machine learning engineer, and AI readiness consultant with 18+ years of quantitative experience across funds management, consumer finance, insurance, and banking. He builds AI accelerators and has led numerous model development and governance initiatives including quantitative hedge fund strategies, credit risk scorecards, and APRA-compliant risk frameworks. Christian specialises in bridging the gap between AI capabilities and organisational readiness, helping SMEs and government organisations navigate AI adoption through employee-first assessments and practical governance frameworks. He holds a PhD in Computational Materials Engineering and sits on the board of ChatCOF, an AI-driven platform for accelerating the discovery of novel molecular structures for applications such as carbon capture, water purification, and semiconductor storage devices. He is President of Reinvent Australia, a non-profit association promoting transparent organisational AI practices to empower consumer choice. His work prioritises human-friendly, safety-first AI adoption that respects workforce input and ensures AI serves people rather than replacing them.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/af498586-6ebd-405c-8971-500f375b5a41?v=1779325258350",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/christian-dandre-545906b/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://www.theobjectiveco.ai"
+      },
+      "presentation_ids": [
+        "ebc489f4-4ca3-4109-9cf9-d8b96020f692",
+        "26397c8c-d5fe-4d6a-808d-1aaf42356024"
+      ]
+    },
+    {
+      "id": "2d6514a3-5a03-45a8-9f08-2c5972644a3a",
+      "slug": "dr-sam-donegan",
+      "full_name": "Dr Sam Donegan",
+      "pronouns": "he/him",
+      "job_title": "Medical Doctor, AI Engineer & President @ MLAI",
+      "employer": "MLAI",
+      "bio": "Dr Sam Donegan is a medical doctor and AI engineer who helps lead MLAI Australia as President, growing a community where people learn, build, and ship real AI projects. He co-founded SupportSorted, an AI platform that matches NDIS participants with the right providers, and previously founded Fora Therapy while driving digital health innovation at Alfred Health. Sam blends clinical insight with product and data skills to turn messy problems into working tools that serve patients and teams.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/2d6514a3-5a03-45a8-9f08-2c5972644a3a?v=1774138105743",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/samueldonegan/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "mlai.au"
+      },
+      "presentation_ids": [
+        "ff94bb93-c8ed-4321-9b6a-caf5decf0aef"
+      ]
+    },
+    {
+      "id": "35b5b2ce-90e8-49f5-908d-df76f20f1534",
+      "slug": "eric-grigson",
+      "full_name": "Eric Grigson",
+      "pronouns": "he/him",
+      "job_title": "Director of Developer Experience",
+      "employer": "Culture Amp",
+      "bio": "Eric is Director of Developer Experience at Culture Amp, where he leads high-performing engineering teams through a unique blend of data-driven insights and trust-based leadership. He has pioneered innovative approaches to measuring and improving developer productivity, consistently finding ways to correlate technical practices with broader engagement metrics. He is particularly passionate about creating environments where engineers can achieve deep work and maintain creative flow states. When not optimising developer experiences, he can be found exploring Merri Creek with his dog, scaling walls at his local bouldering gym, or catching indie bands at live venues around Melbourne.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/35b5b2ce-90e8-49f5-908d-df76f20f1534?v=1774136238421",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "5665739d-93b3-4178-ac45-a2bb7755df92",
+        "26397c8c-d5fe-4d6a-808d-1aaf42356024"
+      ]
+    },
+    {
+      "id": "34dcbc01-ee2c-4f93-a493-b74beab8e8f2",
+      "slug": "esti-frischling",
+      "full_name": "Esti Frischling",
+      "job_title": "GTM Lead APAC",
+      "employer": "Notion",
+      "bio": "Esti Frischling is the GTM Lead for ANZ, SEA, and India at Notion, based in Sydney. She helps companies drive AI transformation by automating workflows and turning new technology into practical, scalable ways of working.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/34dcbc01-ee2c-4f93-a493-b74beab8e8f2?v=1779688182690",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "de3af587-73f6-4188-9283-989804b02ba4"
+      ]
+    },
+    {
+      "id": "24c49c60-91a2-442f-bb69-fadd2483db83",
+      "slug": "geoff-huntley",
+      "full_name": "Geoff Huntley",
+      "job_title": "Founder",
+      "employer": "Latent Patterns",
+      "bio": "Geoffrey Huntley is the creator of the Ralph Wiggum Loop, a brute-force AI agent technique that turns simple prompts into fully functional software through automated iteration. His recent work includes Loom (an AI orchestrator/software factory as an evolution of Ralph), the 'Cursed' programming language (a compiler written entirely by AI loops), and the 'How to Build a Coding Agent' workshop. Known for his viral activism with The NFT Bay, Geoff brings a unique mix of deep engineering rigor and chaotic creativity to the stage. He currently lives remotely on a goat farm in Australia.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/24c49c60-91a2-442f-bb69-fadd2483db83?v=1774136315913",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "851ec294-eece-4ac8-8fd3-dfda1df3f754"
+      ]
+    },
+    {
+      "id": "007ccde8-d61b-4a85-af0e-e4c411366163",
+      "slug": "george-cameron",
+      "full_name": "George Cameron",
+      "job_title": "Co-founder & CPO",
+      "employer": "Artificial Analysis",
+      "bio": "George Cameron is co-founder and Chief Product Officer of Artificial Analysis, the independent benchmarking platform that has become the go-to resource for comparing AI model performance, pricing, and speed. Previously a senior strategy consultant at Altman Solon specialising in technology and data centre strategy, George identified a critical gap in the AI industry: developers faced a 1,000x price difference between models with no reliable way to compare them. Artificial Analysis — backed by AI Grant from Nat Friedman and Daniel Gross — now provides the data that engineering teams rely on to make model selection decisions. George is a keynote veteran, having presented “Trends Across the AI Frontier” at the AI Engineer World’s Fair.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/007ccde8-d61b-4a85-af0e-e4c411366163?v=1774136303685",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "eee65054-2c79-4f20-b5e8-1be2f96c43b0"
+      ]
+    },
+    {
+      "id": "b12e7e8e-75ac-475e-b291-f9910bfea11d",
+      "slug": "hamish-songsmith",
+      "full_name": "Hamish Songsmith",
+      "pronouns": "he",
+      "job_title": "Founder",
+      "employer": "ryora.ai",
+      "bio": "Hamish Songsmith is the founder of ryora.ai, focused on accelerating enterprise AI adoption through practical AI risk visibility, governance, and controls for AI agents. Previously, he was an AI Leader at Optiver, operating in a highly risk-sensitive environment where implementation speed and control discipline must coexist. He brings an implementation-first perspective on why traditional governance models break under agentic systems, and how to align engineering, risk, legal, and security with lightweight frameworks that scale to emergent, user-configured AI capabilities.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/b12e7e8e-75ac-475e-b291-f9910bfea11d?v=1774136279055",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "www.linkedin.com/in/hsongsmith",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://ryora.ai"
+      },
+      "presentation_ids": [
+        "193d8c66-6a5b-40bc-a2a9-5811afd99661",
+        "84770edf-b713-40c6-a44c-e31c3f81d735"
+      ]
+    },
+    {
+      "id": "72bec9ae-0a0f-4b72-b1f1-38b4317da974",
+      "slug": "igor-costa",
+      "full_name": "Igor Costa",
+      "pronouns": "He/Him",
+      "job_title": "CEO",
+      "employer": "Autohand AI",
+      "bio": "Igor Costa is an internationally recognised AI innovator and Founder of Autohand.ai. As a former leader in GitHub’s AI efforts behind Copilot, his work has influenced how developers build software globally. He is now pioneering self-evolving and adaptive systems, shaping a future where continuous engineering replaces traditional DevOps, and software releases happen in minutes instead of weeks.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/72bec9ae-0a0f-4b72-b1f1-38b4317da974?v=1774136175250",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "x.com/igorcosta",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://autohand.ai"
+      },
+      "presentation_ids": [
+        "afe2b74f-3710-4732-9983-1312411aba56"
+      ]
+    },
+    {
+      "id": "dcd0092c-f257-49c5-ba66-1d34c8d3715d",
+      "slug": "inga-pflaumer",
+      "full_name": "Inga Pflaumer",
+      "job_title": "Consulting CTO",
+      "bio": "With 15+ years in tech and a background in AI and web3, Inga Pflaumer has led teams across startups and scaleups. Inga is also a mentor, diversity advocate, and part-time game developer who believes great engineering is equal parts logic, curiosity, and emotional intelligence\r\n\r\nInga was formerly Head of Engineering at Relevance AI, where she built agentic workflows that automate the painful parts of work - including her own.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/dcd0092c-f257-49c5-ba66-1d34c8d3715d?v=1777412874030",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "e6550831-32f2-4ba1-9d95-ddb7527d19bd",
+        "95401c3b-ce1b-4993-b6bd-a1f0d76080df"
+      ]
+    },
+    {
+      "id": "9686d2be-c876-402b-9607-3e1bad4f39d5",
+      "slug": "jack-mcnicol",
+      "full_name": "Jack McNicol",
+      "pronouns": "He/Him",
+      "job_title": "Lead Agentic Engineer",
+      "employer": "SuperIT",
+      "bio": "Jack builds digital products, mentors teams, and keeps large-scale platforms moving. He blends thoughtful architecture with hands-on delivery, from greenfield builds to legacy transformations.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/9686d2be-c876-402b-9607-3e1bad4f39d5?v=1774150467837",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "jackmcpickle",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://jack.mcpickle.com.au/"
+      },
+      "presentation_ids": [
+        "c4331a08-d65f-49a4-a937-f73d60a4afa6"
+      ]
+    },
+    {
+      "id": "b8c00501-6f53-4e78-9335-811244b0f3bd",
+      "slug": "jack-rudenko",
+      "full_name": "Jack Rudenko",
+      "pronouns": "He/Him",
+      "job_title": "CTO",
+      "employer": "MadAppGang",
+      "bio": "The CTO at MadAppGang and founder of 10x Labs, Sydney, Jack works with real Australian businesses running AI on real workflows. Not pilots. Not demos. Actual stuff they depend on. \r\n\r\nWe're deep in the experimental phase - learning more from what breaks than what works.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/b8c00501-6f53-4e78-9335-811244b0f3bd?v=1774136185157",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/erudenko/https://www.threads.com/@jackrudenkohttps://github.com/erudenkohttps://x.com/jackrudenko",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://madappgang.com"
+      },
+      "presentation_ids": [
+        "a309795f-84b5-4ba5-914a-1304d8bd9cbb"
+      ]
+    },
+    {
+      "id": "f9d6eb24-cec1-4ba9-88fa-fd3e8a6bf917",
+      "slug": "jake-maloney",
+      "full_name": "Jake Maloney",
+      "job_title": "Founder",
+      "employer": "AI Jobs Australia",
+      "bio": "Jake Maloney runs the only job board in Australia dedicated entirely to AI, ML, Data Science and emerging AI roles. He launched AI Jobs Australia in 2025 as a solo dev, and in under a year has grown it to 7,000+ monthly users and hundreds of live AI roles from employers including EY, Kogan and Insignia Financial.\r\nJake got into tech the way a lot of kids did in the 2000s, building little HTML and CSS games in the browser, then websites for friends and family businesses. That curiosity about how things work has stuck around, he started AJA after noticing there was nowhere in Australia properly cataloguing AI roles, despite the search demand. He sees AI as a productivity multiplier, not the doomsday tech the media often portrays, and he's building AJA to help keep more of Australia's AI talent in Australia.\r\nOutside work, Jake is an avid runner (recently completed his first half marathon) and a year into his Brazilian Jiu-Jitsu journey, where he gets humbled by more experienced training partners on a weekly basis. He's based in Melbourne.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/f9d6eb24-cec1-4ba9-88fa-fd3e8a6bf917?v=1779249097720",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "d3dcc0ae-5e35-4088-b479-f40ae3d94f45"
+      ]
+    },
+    {
+      "id": "00cf9b1f-4acc-4067-9ba0-7235a129d82c",
+      "slug": "jakub-riedl",
+      "full_name": "Jakub Riedl",
+      "job_title": "Technical Founder",
+      "employer": "ctx|",
+      "bio": "Jakub is an engineer by soul with 17 years of experience across technical and managerial roles including Principal Engineer at CultureAmp, Head of Engineering at iflix and many others.\r\n\r\nIn last few years he focuses on AI Engineering space and led technical aspect of CultureAmp's AI Coach development and has founded Appear and lately ctx| (ctxpipe.ai)",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/00cf9b1f-4acc-4067-9ba0-7235a129d82c?v=1774136245922",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/jakubriedl/, https://x.com/jakubriedl, https://github.com/jakubriedl",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://ctxpipe.ai"
+      },
+      "presentation_ids": [
+        "de4cac0a-bd4e-41be-9104-49c8a3f8e32a"
+      ]
+    },
+    {
+      "id": "5bfe867f-ec7c-4653-9b14-2abe6ab62db1",
+      "slug": "janna-malikova",
+      "full_name": "Janna Malikova",
+      "pronouns": "She/her",
+      "job_title": "Software engineer",
+      "employer": "Tomato Elephant Studio",
+      "bio": "Hi, there. I’m Janna, a Brisbane-based security researcher and software engineer at Tomato Elephant Studio, specialising in frontend performance and security. I’m a passionate advocate for Free and Open Source Software (FOSS) and actively contribute to the codebases and community by sharing her expertise at local meetups and conferences worldwide.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/5bfe867f-ec7c-4653-9b14-2abe6ab62db1?v=1774143920456",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/janna-malikova-00a91671/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://www.tomato-elephant-studio.com"
+      },
+      "presentation_ids": [
+        "f45cb6cc-51d1-49a4-9842-82d370886d8e"
+      ]
+    },
+    {
+      "id": "d0ab22a0-41b5-4d22-b7ea-64bbec900e96",
+      "slug": "jason-cornwall",
+      "full_name": "Jason Cornwall",
+      "job_title": "Head of Engineering Enablement",
+      "employer": "SEEK",
+      "bio": "As SEEK's Head of Engineering for Engineering Enablement and Experience Platforms, Jason leads the teams responsible for improving the working lives and productivity of SEEK's 500+ engineers.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/d0ab22a0-41b5-4d22-b7ea-64bbec900e96?v=1774136258343",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/jecornwall/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://jecornwall.com/"
+      },
+      "presentation_ids": [
+        "3a143407-d73d-4490-bcdf-01d470779e73"
+      ]
+    },
+    {
+      "id": "17836589-1ad9-4722-a55e-787c5dca9e73",
+      "slug": "jeffrey-aven",
+      "full_name": "Jeffrey Aven",
+      "pronouns": "He/Him",
+      "job_title": "Maintainer",
+      "employer": "StackQL Studios",
+      "bio": "https://www.linkedin.com/in/jeffreyaven/",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/17836589-1ad9-4722-a55e-787c5dca9e73?v=1774136299084",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://x.com/stackql, https://www.linkedin.com/company/stackql/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://github.com/stackql/stackql"
+      },
+      "presentation_ids": [
+        "98cd77b8-45e8-4494-87d9-f8deb3cbb5ee"
+      ]
+    },
+    {
+      "id": "046c25e2-e4dc-4308-ae5c-2d21d9d88d1b",
+      "slug": "jeremy-howard",
+      "full_name": "Jeremy Howard",
+      "job_title": "Founding CEO & Co-founder",
+      "employer": "Answer.AI & fast.ai",
+      "bio": "Jeremy Howard is the founding CEO of Answer.AI, a new kind of AI R&D lab creating practical end-user products from foundational research breakthroughs, and co-founder of fast.ai, dedicated to making deep learning more accessible. He created ULMFiT, the AI system at the heart of today's major language models including ChatGPT and Gemini. A former president and top-ranked participant at Kaggle, Jeremy founded Enlitic, the first company to apply deep learning to medicine, and earlier founded FastMail and Optimal Decisions Group. He is an Honorary Professor at the University of Queensland and a Digital Fellow at Stanford University. His TED talk on machine learning has been viewed over 2.5 million times.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/046c25e2-e4dc-4308-ae5c-2d21d9d88d1b?v=1774136305840",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "bd68170e-e998-4efc-8058-9065d5b824f8"
+      ]
+    },
+    {
+      "id": "a4a0a8fb-3732-4f3c-84f0-5eb84ef27391",
+      "slug": "jeremy-kelaher",
+      "full_name": "Jeremy Kelaher",
+      "pronouns": "I prefer not to use pronouns",
+      "job_title": "AI Enablement Architect",
+      "employer": "SBS",
+      "bio": "Jeremy Kelaher is AI Enablement Architect at the Special Broadcasting Service, where they champion smarter, more resilient media workflows across digital and live production at scale, helping systems deliver much loved content every day.\r\n\r\nA lifelong electronics hobbyist and an early coder who cut their teeth building an Eliza-style chatbot as a teen, Jeremy has been obsessed with practical AI ever since. For this talk, Jeremy brings a blend of hands-on tinkering and professional engineering rigor to Edge AI, especially real-time, privacy-preserving systems that interact directly with the world.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/a4a0a8fb-3732-4f3c-84f0-5eb84ef27391?v=1774136220565",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/jeremykelaher/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "723e3fbe-0bd1-41ca-8c25-3c6a7f0f1c48"
+      ]
+    },
+    {
+      "id": "6d9925a3-96dc-47c8-bb7e-2643e2a0ba56",
+      "slug": "john-allsopp",
+      "full_name": "John Allsopp",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/6d9925a3-96dc-47c8-bb7e-2643e2a0ba56?v=1776285112228",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "ad17977a-a954-4b28-bab4-604dc7a78c1d",
+        "9149fbd5-bfba-4618-bba5-027b6c742f0f",
+        "24ce6cdc-6ffc-4b67-ac90-5b9dfaa9baa4",
+        "c40ced03-f774-49c3-bc3b-9284fc989d1e"
+      ]
+    },
+    {
+      "id": "707afc34-dab5-43fb-83d9-e05f3414143b",
+      "slug": "josh-gillies",
+      "full_name": "Josh Gillies",
+      "pronouns": "he/him",
+      "job_title": "Senior Software Engineer",
+      "employer": "Prefactor",
+      "bio": "Josh Gillies is a software engineer whose lifelong journey with technology was sparked by the arrival of a dial-up internet connection in his childhood home. Building on a foundational career in fullstack web development, his focus recently shifted after witnessing generative AI fundamentally disrupt traditional software engineering. Today, as an engineer at Prefactor, Josh works at the cutting edge of AI observability, identity, and access control, building the governance and security infrastructure required to help organizations safely transform experimental AI scripts into secure, auditable, and fully integrated digital co-workers.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/707afc34-dab5-43fb-83d9-e05f3414143b?v=1774258092787",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "joshgillies",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://linktr.ee/joshgillies"
+      },
+      "presentation_ids": [
+        "24b18eea-ca43-4d58-b69e-efa2f3c5bd9d"
+      ]
+    },
+    {
+      "id": "5a4867e4-744e-4910-b0e3-960451db743d",
+      "slug": "justin-barias",
+      "full_name": "Justin Barias",
+      "pronouns": "He/Him",
+      "job_title": "Lead AI Engineer",
+      "employer": "Australian Government",
+      "bio": "Justin Barias is a Lead Software & AI Engineer currently building experimentation and AIOps platforms for an Australian government department. \r\nBefore that, he spent 6 years at Microsoft as a Senior Software Engineer, working across distributed systems, data engineering, and early custom Copilot development using Azure OpenAI, LangChain, and Semantic Kernel.\r\nHis background in platform engineering heavily shaped how he approaches AI engineering. The same principles that make platforms work (consistency, self-service, fast feedback loops) are what he's been applying to agent development since GPT-3.5 Turbo. \r\nHe recently built his first open-source tool, HoloDeck, a CLI toolkit for config-driven agent development, testing, and deployment. He writes about the realities of shipping agents at justinbarias.io.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/5a4867e4-744e-4910-b0e3-960451db743d?v=1774136251029",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/justin-barias-89ba6521/, https://x.com/JustinBarias",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://justinbarias.io/"
+      },
+      "presentation_ids": [
+        "0e7cddbf-7e05-47b1-8ced-d63ca6736081"
+      ]
+    },
+    {
+      "id": "0c7272fe-8a83-4bd4-99f8-68cea63d2f71",
+      "slug": "kanish-gosain",
+      "full_name": "Kanish Gosain",
+      "job_title": "AI Engineer",
+      "employer": "Radical Intelligence",
+      "bio": "AI Strategist, Research Engineer, and Team Leader with a proven track record of delivering impactful, end-to-end solutions in AI development, engineering leadership, and product innovation. With over a decade of experience across AI research, cloud technologies, data engineering, DevOps and full-stack engineering, he seamlessly bridges technical expertise with strategic leadership to drive organizational success.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/0c7272fe-8a83-4bd4-99f8-68cea63d2f71?v=1779177073766",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "dc3cf8d1-1e31-4b33-91a6-3770af0ba6c6"
+      ]
+    },
+    {
+      "id": "91b2e25f-048c-46a4-b9bf-f05ee5a87dda",
+      "slug": "karina-pamamull",
+      "full_name": "Karina Pamamull",
+      "pronouns": "She | Her",
+      "job_title": "AI Speaker, Trainer & Consultant",
+      "employer": "Self Employed",
+      "bio": "Karina Pamamull is an AI speaker and trainer who helps people cut through the noise and actually start using AI in real life.\r\n\r\nWith a background in events, marketing, and community building, she takes a hands on, “let’s just try it” approach, building and testing AI tools in places where things get interesting, like dating, decision making, and human behaviour.\r\n\r\nShe is known for keeping AI simple, practical, and a little bit fun, sharing what works, what doesn’t, and what happens when you stop overthinking and start building.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/91b2e25f-048c-46a4-b9bf-f05ee5a87dda?v=1774136180188",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "@datelicious @wingwomantribe",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "www.pamamull.com"
+      },
+      "presentation_ids": [
+        "02c0c449-ea60-46b0-9819-49e0a29cc087"
+      ]
+    },
+    {
+      "id": "9e6ebe6b-f768-43b4-9915-7505ec7146ee",
+      "slug": "kevin-akermanis",
+      "full_name": "Kevin Akermanis",
+      "job_title": "Senior Developer Presales Architect",
+      "employer": "Auth0",
+      "bio": "Kevin Akermanis is a Senior Developer Presales Architect at Auth0. With a background spanning Apple, enterprise architecture, and multiple startup ventures, he bridges the gap between technical depth and business strategy. Kevin specialises in translating complex technical concepts into clear business value across industries.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/9e6ebe6b-f768-43b4-9915-7505ec7146ee?v=1778826618964",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "a3bfa109-6f61-414e-bcb3-bd3068e2562f"
+      ]
+    },
+    {
+      "id": "239fc22f-59b1-40f7-aeb9-1e7cb47abbc4",
+      "slug": "krishna-kanth-mundada",
+      "full_name": "Krishna kanth Mundada",
+      "pronouns": "He/him",
+      "job_title": "Software Engineer",
+      "employer": "Versent",
+      "bio": "Krishna is a senior full-stack engineer at Versent working across cloud, AI, and enterprise platforms, with 12 years of experience building systems that actually have to work in production. He's spent the last two years quietly accumulating an AI tax he didn't know he was paying and building workflows to stop. An active voice in Melbourne's tech community as a speaker and organiser, he has a habit of turning uncomfortable engineering observations into talks that make rooms go quiet before they start nodding.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/239fc22f-59b1-40f7-aeb9-1e7cb47abbc4?v=1774136192682",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/krishna-kanth-mundada",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "c28ecc4a-512c-463a-8348-0eabd2c95113",
+        "dd137234-c9fb-47cd-925e-73d1ee567198"
+      ]
+    },
+    {
+      "id": "1503980c-d253-4a5d-8225-a7739575056f",
+      "slug": "lovee-jain",
+      "full_name": "Lovee Jain",
+      "pronouns": "she/her",
+      "job_title": "Senior Software Engineer | Google Developer Expert | AWS Community Builder",
+      "bio": "Lovee Jain is a Senior Software Engineer, AWS Community Builder, and Google Developer Expert (GCP). She designs and builds scalable systems in the B2B2C and white-labelling space, working across APIs, cloud infrastructure, and solution architecture. \nShe is particularly interested in how intelligent agents and AI-driven systems can augment modern software design and developer workflows.\nBeyond engineering, she serves as a GDG Melbourne Organiser and Women Techmakers Ambassador, championing community-driven learning and inclusive tech ecosystems.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/1503980c-d253-4a5d-8225-a7739575056f?v=1774136263171",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/loveejain/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://linktr.ee/loveejain"
+      },
+      "presentation_ids": [
+        "8a1bbda2-87c9-4a09-af87-d8a9d947d848"
+      ]
+    },
+    {
+      "id": "7782bd55-c720-4579-8c52-5de0e707485f",
+      "slug": "mal-curtis",
+      "full_name": "Mal Curtis",
+      "pronouns": "he/him",
+      "job_title": "Principal Software Engineer",
+      "employer": "NVIDIA",
+      "bio": "Mal Curtis is a software engineer at Nvidia, where he continues working on AI inference infrastructure following Nvidia's acquisition of Groq. Previously, he built engineering infrastructure for the development of the world's fastest AI inference chips, and before that led AI agent development at Kolatr, where prompt injection moved from \"interesting research problem\" to \"thing that breaks production on Tuesdays.\"",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/7782bd55-c720-4579-8c52-5de0e707485f?v=1774136200131",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "e570f71e-6538-40c4-8f97-8b92257e3ddc"
+      ]
+    },
+    {
+      "id": "627d5d34-2823-4420-9503-705ff6913b66",
+      "slug": "mark-mcdonald",
+      "full_name": "Mark McDonald",
+      "pronouns": "he/him",
+      "job_title": "Gemini Developer Experience",
+      "employer": "Google DeepMind",
+      "bio": "Mark is an engineer in the Google DeepMind developer experience team, and is based in Perth, Australia.\n\nHe co-wrote the (Guinness World Record holding) Kaggle 5-day Generative AI course, introducing hundreds of thousands of developers to building with GenAI.\n\nBut normally he works with DeepMind research teams to bring cutting-edge technology to developers of all kinds, and works with GenAI builders to bring Gemini to apps of all kinds.\n\nHe's worked on a range of Google products, including the Gemini API, PaLM API, TensorFlow, Google Maps and even Santa Tracker.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/627d5d34-2823-4420-9503-705ff6913b66?v=1774136215257",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://linktr.ee/markmcd\nhttps://twitter.com/m4rkmc\nhttps://linkedin.com/in/markmcdonald0",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://ai.studio/"
+      },
+      "presentation_ids": [
+        "54b9a2c6-b2f6-4639-9736-7a4f9ebc698c"
+      ]
+    },
+    {
+      "id": "c3fe1d7d-bbd8-4de9-bef3-0d7e77d7079d",
+      "slug": "matt-doughty",
+      "full_name": "Matt Doughty",
+      "job_title": "Co-Founder and CEO",
+      "employer": "Prefactor",
+      "bio": "Matt Doughty is CEO and co-founder of Prefactor, the agentic operational layer helping enterprises take AI agents from POC to production. With 15 years in enterprise software sales, most recently at Procore Technologies, Matt founded Prefactor to solve the governance and visibility problems holding agents back from real deployment. He hosts Agents After Dark, a podcast for enterprise AI leaders.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/c3fe1d7d-bbd8-4de9-bef3-0d7e77d7079d?v=1778616805492",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "1c90e24b-d001-4ff8-9b72-ee04e8b71fd3"
+      ]
+    },
+    {
+      "id": "aa2716e5-f5a6-42e3-ab1e-92d4636ccc55",
+      "slug": "matthew-gillard",
+      "full_name": "Matthew Gillard",
+      "pronouns": "He/Him",
+      "job_title": "Principal",
+      "employer": "V2 AI",
+      "bio": "Matthew Gillard is the CTO of CuidadoConnect, an innovative aged-care technology startup, and a Principal at V2.AI in Melbourne, Australia. He co-hosts the Cloud Dialogues podcast, exploring emerging trends in cloud, platforms, and AI with industry leaders. Matthew consults on platform engineering, serverless, and practical AI adoption, helping organisations accelerate outcomes and enable developers to move faster.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/aa2716e5-f5a6-42e3-ab1e-92d4636ccc55?v=1774136243336",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://linkedin.com/in/mattgillard https://x.com/mattgillard",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://medium.com/@mattgillard https://cloud-dialogues.com"
+      },
+      "presentation_ids": [
+        "0c685015-ad6a-41ba-8f53-123f438a35e1"
+      ]
+    },
+    {
+      "id": "72d2b31f-df01-4820-b76b-65fa8b553ecf",
+      "slug": "mic-neale",
+      "full_name": "Mic Neale",
+      "job_title": "Principal Engineer",
+      "employer": "Block",
+      "bio": "Mic Neale is a Principal Engineer at Block, where he works on ai, including building out goose, the company’s open source AI platform. A co-founder of CloudBees and former open source architect at Red Hat, Mic built the early versions of the Drools inference engine and has spent over two decades at the intersection of developer tooling, distributed systems, and AI. With a background in electrical engineering from UNSW, he brings a pragmatic, builder-first perspective to how engineering teams adopt and deploy AI infrastructure at scale.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/72d2b31f-df01-4820-b76b-65fa8b553ecf?v=1774136313775",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/michaelneale/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://www.michaelneale.net/"
+      },
+      "presentation_ids": [
+        "b1f400a3-1d68-4146-98c5-53bc92c00bce"
+      ]
+    },
+    {
+      "id": "a534e7f8-1054-4aea-bdc7-6ce269eb0f9e",
+      "slug": "michael-hart",
+      "full_name": "Michael Hart",
+      "job_title": "Senior Principal Engineer",
+      "employer": "Cloudflare",
+      "bio": "Michael Hart is a software engineering leader with more than 20 years of experience growing companies, teams and building distributed systems, from fullstack development to AI, machine learning and big data analytics.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/a534e7f8-1054-4aea-bdc7-6ce269eb0f9e?v=1779783721435",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://x.com/hichaelmart, https://github.com/mhart",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "d5c78686-1a5b-49aa-9e56-0b123f70bf06"
+      ]
+    },
+    {
+      "id": "8a2f1f77-3019-472c-b9dd-70de5b0b08d5",
+      "slug": "michael-zhang",
+      "full_name": "Michael Zhang",
+      "pronouns": "he/him",
+      "job_title": "Principal ML Engineer",
+      "employer": "MYOB",
+      "bio": "Michael Zhang is the Principal MLE at MYOB. Over the past six months, his team of fewer than 15 engineers took an AI-powered chat experience from zero to production, embedded directly inside the MYOB product, serving real small business owners and accountants every day.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/8a2f1f77-3019-472c-b9dd-70de5b0b08d5?v=1779489407238",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://www.linkedin.com/in/michael-yiqing-zhang/"
+      },
+      "presentation_ids": [
+        "a8145536-1aca-4b8e-849e-945f5ed9a4f7"
+      ]
+    },
+    {
+      "id": "cd1f3476-e0f0-4dbb-8c7b-f8cdaac77d49",
+      "slug": "mike-chambers",
+      "full_name": "Mike Chambers",
+      "pronouns": "he/him",
+      "job_title": "Senior Developer Advocate AI",
+      "employer": "AWS",
+      "bio": "Mike Chambers is a Senior Developer Advocate for Generative AI at AWS, based in\nBrisbane. He co-created \"Generative AI with Large Language Models\" with\nAndrew Ng's DeepLearning.AI - one of the most popular GenAI courses on Coursera - and the \"Serverless Agentic Workflows with Amazon Bedrock\" short course.\n\nMike builds agent systems in the open. His Lambda-MCP-Server (231 GitHub stars)\nwas adopted into the official awslabs organization. He works across the agent\nstack - Amazon Bedrock, AgentCore, Strands Agents, and MCP - and writes about\nagent architecture, observability, and memory management at\nblog.mikegchambers.com.\n\nBefore advocacy, Mike spent 20 years as a solutions and security architect. He\nwas named an AWS Machine Learning Hero in 2020 for community ML education - \nbefore joining AWS.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/cd1f3476-e0f0-4dbb-8c7b-f8cdaac77d49?v=1774136235922",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "linkedin.com/in/mikegchambers",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "blog.mikegchambers.com"
+      },
+      "presentation_ids": [
+        "43c59b31-3ace-4003-ab3c-4ab5403bce99"
+      ]
+    },
+    {
+      "id": "b30bd8d6-c1f3-4896-9631-246e400ac7b5",
+      "slug": "moin-zaman",
+      "full_name": "Moin Zaman",
+      "job_title": "Co-founder",
+      "employer": "Smartnote",
+      "bio": "Moin Zaman works at the intersection of product strategy, UX, technology leadership, and AI-enabled systems. His background spans executive leadership, digital transformation, front-end engineering, and building software that needs to feel both useful and credible. His recent work includes high-trust AI workflows such as SmartScrub and Smartnote, within a broader focus on calm products, trusted systems, and practical execution.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/b30bd8d6-c1f3-4896-9631-246e400ac7b5?v=1774136207689",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/moinzaman/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "moinzaman.com"
+      },
+      "presentation_ids": [
+        "4ce8f4cf-d1ac-4ce0-ac73-3c3c72d112ae"
+      ]
+    },
+    {
+      "id": "e619ea60-63a6-48a3-9e2b-c88190f2a263",
+      "slug": "moss-ebeling",
+      "full_name": "Moss Ebeling",
+      "pronouns": "He/him",
+      "job_title": "Head of AI Engineering",
+      "employer": "Optiver Asia Pacific",
+      "bio": "Moss leads the AI Engineering team at Optiver, where he's focused on transforming how they conduct research and build software in the age of AI.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/e619ea60-63a6-48a3-9e2b-c88190f2a263?v=1774258090396",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://banay.me/"
+      },
+      "presentation_ids": [
+        "de8657a0-b97d-48cf-885c-afa7b3cabb76"
+      ]
+    },
+    {
+      "id": "e6d1c7d9-b7a6-417e-a1ef-f7ce04ef4744",
+      "slug": "muhammad-ali",
+      "full_name": "Muhammad Ali",
+      "pronouns": "he/him",
+      "job_title": "Senior Solution Architect",
+      "employer": "ClickHouse",
+      "bio": "Muhammad Ali is an AI Engineer and Solutions Architect at ClickHouse, specializing in the intersection of real-time analytics and Agentic AI. As the Langfuse Lead for the APJ region, Ali bridges the gap between data engineering and LLM orchestration. Over the past three years, he has designed AI applications for the likes of Apple, Atlassian, and Amazon, focusing heavily on the AI development lifecycle.\r\n\r\nMuhammad’s expertise lies in transforming \"blind\" prototypes into observable, reliable systems. By combining ClickHouse’s high-speed telemetry with Langfuse’s evaluation frameworks, he helps developers solve the silent failures of multi-step agents. He previously served as the Principal Analytics Tech Lead (APJ) at AWS",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/e6d1c7d9-b7a6-417e-a1ef-f7ce04ef4744?v=1777526003674",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/muhammadaliiqbal/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://www.langfuse.com"
+      },
+      "presentation_ids": [
+        "6056e3a7-4bcf-403b-b85e-67abaa067001",
+        "8c29bef6-e037-47ff-a130-642da3ec44a5"
+      ]
+    },
+    {
+      "id": "999e6e08-78fa-4826-bb7d-a42acb641cac",
+      "slug": "nakul-gowdra",
+      "full_name": "Nakul Gowdra",
+      "job_title": "AI/ML Architect",
+      "employer": "Google",
+      "bio": "Nakul Gowdra is an AI/ML Architect at Google Cloud based in Melbourne. His journey in tech over the last decade has taken him through almost every layer of the data world—from building data pipelines and managing databases to designing advanced AI models. What excites him most is helping organizations look past the hype of Generative AI and find practical, ethical ways to innovate and solve real-world problems. He is thrilled to be joining the discussion today to explore these ideas with fellow attendees.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/999e6e08-78fa-4826-bb7d-a42acb641cac?v=1780184412394",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "6245259c-2daa-4e89-9d54-e6f890cdec95"
+      ]
+    },
+    {
+      "id": "2495567c-dc5d-4584-b80e-dda5f7b67384",
+      "slug": "navan-tirupathi",
+      "full_name": "Navan Tirupathi",
+      "pronouns": "HE",
+      "job_title": "CTO , Architecture and AI Expert",
+      "employer": "Arivminds",
+      "bio": "Navan Tirupathi is a seasoned technology executive and enterprise architect with over 25 years of hands-on leadership in building scalable data, AI, cloud, and digital systems across complex industries.\r\nHe is a practical AI builder who tests agentic architectures, persistent memory, proactive behaviors, secure multi-agent coordination, and reliable deployment patterns—always focusing on what actually works at scale rather than hype or prototypes.\r\nThrough clear architecture breakdowns, ongoing testing, and straightforward posts on LinkedIn and Medium, Navan explains the real, behind-the-scenes work needed to turn simple chatbots into dependable, always-on AI that supports long-running tasks and delivers real business value.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/2495567c-dc5d-4584-b80e-dda5f7b67384?v=1774136289335",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://navant.github.io/"
+      },
+      "presentation_ids": [
+        "2d53e279-d883-4038-bc12-9b2594324b15"
+      ]
+    },
+    {
+      "id": "82255ecb-05ba-402f-81a1-68857cf20d23",
+      "slug": "navin-keswani",
+      "full_name": "Navin Keswani",
+      "pronouns": "he/him",
+      "job_title": "CPTO",
+      "employer": "TANK",
+      "bio": "Navin Keswani is CPTO and co-founder at TANK, where he’s building tools and methods to end burnout, grounded in peer-reviewed research from neuroscience, organisational psychology and performance science. He has lead engineering teams that actively ship with AI tools. \r\n\r\nNavin holds a PhD in pure mathematics and draws on two decades of engineering leadership to bridge the gap between how teams actually work under pressure and what the research says about sustainable performance. He has presented on achieving sustainable performance while defending against burnout at Sydney Tech Leaders, REA and /New conference.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/82255ecb-05ba-402f-81a1-68857cf20d23?v=1774136260824",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "LinkedIn: www.linkedin.com/in/novemberkiloBlueSky: @novemberkilo.bsky.socialMastodon: @novemberkilo",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://thisisyourtank.com"
+      },
+      "presentation_ids": [
+        "f8e0c7b8-5bac-4c45-9630-5fc13308a30c",
+        "26397c8c-d5fe-4d6a-808d-1aaf42356024"
+      ]
+    },
+    {
+      "id": "2f39f126-55fc-40a3-ae02-c9d268733937",
+      "slug": "nick-beaugeard",
+      "full_name": "Nick Beaugeard",
+      "pronouns": "Hs/His",
+      "job_title": "Managing Director",
+      "employer": "Released Pty Ltd",
+      "bio": "Nick Beaugeard is a software architect, entrepreneur and AI strategist based in Sydney. He is the founder of Released and a driving force behind next-generation automation platforms that combine structured engineering with practical AI deployment.\r\n\r\nNick works at the intersection of technology and governance, helping organisations move beyond AI experimentation into commercially viable, production-ready systems. His approach is grounded in disciplined architecture, clear specifications and measurable outcomes rather than hype.\r\n\r\nIn addition to leading complex software and AI initiatives across healthcare, professional services and enterprise environments, Nick serves as a Councillor on the Northern Beaches Council. He brings a pragmatic, outcomes-focused mindset to both business and public service, with a strong emphasis on accountability, digital transformation and real-world impact.\r\n\r\nNick is a regular conference speaker, known for translating emerging AI capabilities into practical strategies leaders can actually implement.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/2f39f126-55fc-40a3-ae02-c9d268733937?v=1774136284071",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://linkedin.com/in/nickbeaugeard; X: @nickbeau",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://www.releasedgroup.com"
+      },
+      "presentation_ids": [
+        "0716c074-bc59-47ba-a2b2-7fd916c0cad5"
+      ]
+    },
+    {
+      "id": "9448e7b6-e8dc-4988-9437-a2859ccdee96",
+      "slug": "nick-lothian",
+      "full_name": "Nick Lothian",
+      "pronouns": "He/His",
+      "job_title": "Staff Engineer",
+      "employer": "N/A",
+      "bio": "Nick Lothian is a AI/ML engineer and technical leader with deep experience in AI, applied machine learning, forecasting, NLP, and privacy preserving technologies. Nick has led or contributed to projects that won the National AI Centre Sprint (2024) and the Red Dot Design Award (2022), and has built AI systems used across industry, government, and national security.\r\n\r\nNick's background spans CTO, Head of ML, and Head of Product roles. Nick is a co-author on papers in PNAS and ACM, and a co-inventor on an NLP geolocation patent.\r\n\r\nNick also help grow the Australian AI ecosystem as Adelaide Lead for AI.Build Club and Co-Founder of the Artificial Intelligence Collaborative Network.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/9448e7b6-e8dc-4988-9437-a2859ccdee96?v=1774136205199",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://x.com/nlothian",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://nicklothian.com"
+      },
+      "presentation_ids": [
+        "377b9ced-16f0-426f-9c03-a0cd2e4b329b",
+        "84770edf-b713-40c6-a44c-e31c3f81d735"
+      ]
+    },
+    {
+      "id": "1d4484d0-17e0-4ea4-9a0b-3fd5321f844a",
+      "slug": "obadiah-pewee",
+      "full_name": "Obadiah Pewee",
+      "pronouns": "he",
+      "job_title": "Chief Executive Officer",
+      "employer": "Monadd-AI",
+      "bio": "Senior technology executive and aerospace engineer with 5+ years of leadership across AI/deep-tech startups, defence engineering, and venture-backed enterprises. Currently CEO of Monadd-AI, developing a world-first platform leveraging frontier LLMs for autonomous \"virtual employee\" capabilities. Accredited AICD director with a Graduate Certificate in Business (University of Melbourne) and Wharton certification in Strategic Management, bringing executive capabilities in fundraising, investor relations, strategic planning, and multi-disciplinary team leadership. Co-inventor on multiple US and Australian patents spanning hardware, software, and hybrid systems, with deep technical expertise in HPC, numerical simulation, and complex systems design—including 3+ years of advanced FEA at BAE Systems Australia and founding an aerospace startup pioneering hydrogen-powered rotorcraft.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/1d4484d0-17e0-4ea4-9a0b-3fd5321f844a?v=1774136195120",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/obadiah-pewee-4773781a0/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://www.monadd.ai/"
+      },
+      "presentation_ids": [
+        "e16a1159-1249-43e4-ad30-be0e8a47aca1"
+      ]
+    },
+    {
+      "id": "9ef075a0-3b30-43f8-99c0-58e424f6e381",
+      "slug": "pas-apicella",
+      "full_name": "Pas Apicella",
+      "job_title": "Field CTO",
+      "employer": "Snyk APJ",
+      "bio": "Pas Apicella is Field CTO for Snyk in APJ, working with financial services and enterprise organisations to secure cloud-native and AI-driven applications across the software development lifecycle. With over 20 years of experience in open source, distributed systems, and cloud-native development, he helps teams reduce risk while accelerating innovation. Pas has held senior roles at leading technology companies including Elastic, Pivotal, VMware, Oracle, and IBM. He holds a Bachelor of Computer Science from RMIT University",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/9ef075a0-3b30-43f8-99c0-58e424f6e381?v=1774417626900",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "PasApicella - Twitter only",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "be80e03a-9bc6-4a18-805a-36a12ab932ae"
+      ]
+    },
+    {
+      "id": "85a484f4-a391-4f1e-838c-039636054734",
+      "slug": "paul-hughes",
+      "full_name": "Paul Hughes",
+      "job_title": "Director of Engineering Enablement",
+      "employer": "Culture Amp",
+      "bio": "Paul is Director of Engineering Enablement at Culture Amp, where he shapes the cultural fabric of a 200-person engineering organisation navigating the biggest transformation of its existence. After coming through health challenges early in his career, Paul discovered a deep passion for helping people thrive at work and has spent a decade focused on the kind of leadership and culture that enables people to flourish while achieving remarkable things. At Culture Amp, he has helped shape the \"Evolve at Pace\" enablement approach, rethought hiring practices for the AI era, and builds the rituals and rhythms that turn strategic intent into lived engineering culture. Outside work, you'll find him with his wife and two teenage daughters, taking on physical challenges, or writing his book \"Love Your Team\" on the role of love in leadership.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/85a484f4-a391-4f1e-838c-039636054734?v=1774136230915",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/paul-love-your-team/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "5665739d-93b3-4178-ac45-a2bb7755df92",
+        "26397c8c-d5fe-4d6a-808d-1aaf42356024"
+      ]
+    },
+    {
+      "id": "2f8af2a4-00eb-42dc-9a87-83d5ea7f8c75",
+      "slug": "prem-pillai",
+      "full_name": "Prem Pillai",
+      "pronouns": "he/him/his",
+      "job_title": "Sr. AI Engineer",
+      "employer": "Block Inc",
+      "bio": "Prem is a Senior AI Engineer at Block, where he builds developer tooling on the AI Engineering team. His current focus is rp1, an open-source multi-agent plugin system used daily by hundreds of engineers across Block to automate PR reviews, feature development, code auditing, and codebase documentation. Before Block, he led data engineering teams at REA Group and co-founded Adepto Solutions, building applications for social networks. Across 22 years in the industry - from startups to multi-billion-dollar enterprises - common thread has been building systems that make engineering teams more productive. He writes about AI engineering and developer tools at blog.pre.ms.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/2f8af2a4-00eb-42dc-9a87-83d5ea7f8c75?v=1774136265680",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://linkedin.com/in/cloud-on-prem",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://pre.ms"
+      },
+      "presentation_ids": [
+        "c6901280-f221-476f-bf2d-2525ea77f8ee"
+      ]
+    },
+    {
+      "id": "6445e547-758e-46af-a6a7-350c19d4f973",
+      "slug": "ron-au",
+      "full_name": "Ron Au",
+      "pronouns": "he/him",
+      "job_title": "Senior Software Engineer",
+      "employer": "Canva (Leonardo.Ai)",
+      "bio": "Ron Au is a creative engineer at Canva moonlighting as a data scientist and has always waxed lyrical about the delightful parts of tech in equal parts with good humour. Tinkering since the HTML 4.0 days, he's been in lockstep with production AI working at Leonardo.Ai, Hugging Face and Relevance AI.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/6445e547-758e-46af-a6a7-350c19d4f973?v=1774136182827",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "ronvoluted",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://ronvoluted.com"
+      },
+      "presentation_ids": [
+        "8f1128aa-14a6-4d5e-9ef3-8e2788e15091"
+      ]
+    },
+    {
+      "id": "9515def0-9902-4fe0-a096-ddc2db7d9971",
+      "slug": "ryan-samarakoon",
+      "full_name": "Ryan Samarakoon",
+      "pronouns": "He/Him",
+      "job_title": "Software Engineer",
+      "employer": "Optiver",
+      "bio": "Ryan Samarakoon is the primary software engineer/contributor for the APAC Risk Team's AI strategy. He has worked at Optiver for 3 years and has been building production grade AI solutions for Risk ever since agentic AI took off.\r\n\r\nHis work in the AI space is unique as it works close to the high risk, low forgiveness intersection of trading and risk management, where speed and accuracy are key.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/9515def0-9902-4fe0-a096-ddc2db7d9971?v=1779247020761",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "7fdd6c5a-4c3b-497a-af92-b00bc7e10308"
+      ]
+    },
+    {
+      "id": "4468f3b2-e078-443e-8b4a-1aa91e6364b3",
+      "slug": "sahil-bahl",
+      "full_name": "Sahil Bahl",
+      "job_title": "Senior ML Engineer",
+      "employer": "Canva",
+      "bio": "Sahil bahl is a Senior Machine Learning Engineer at Canva, where he focuses on scaling customer support using AI. His work involves building production-grade agentic systems for automated ticket resolution, content validation, and customer service copilots, with a strong emphasis on observability, evaluation, and reliability in real-world deployments. Previously, Sahil led the design and delivery of enterprise AI solutions at Mantel Group, establishing MLOps frameworks and deploying scalable systems across cloud platforms. His experience spans retrieval-augmented generation, multimodal LLMs, and production monitoring. He is a regular speaker at AI community events, including AWS Community Day and meetups across Australia and New Zealand.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/4468f3b2-e078-443e-8b4a-1aa91e6364b3?v=1777849914125",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "cbdec3ec-6e96-4869-9c36-2a5efb802222"
+      ]
+    },
+    {
+      "id": "ab8772cb-01e7-4918-b1c8-7106f79a6cde",
+      "slug": "sajjad-kamal",
+      "full_name": "Sajjad Kamal",
+      "job_title": "CEO",
+      "employer": "OnSet Health",
+      "bio": "Sajjad Kamal holds a degree in Mathematics from the University of Waterloo. He has worked across large-scale technology and institutional environments, including Apple, BlackBerry, as well as government and hospital systems. His work has focused on building systems in constraint-heavy environments. He is drawn to startups, where systems can be designed from first principles. He has co-founded multiple ventures, including Beneple, AlemHealth, Coding Circle, and most recently OnSet Health.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/ab8772cb-01e7-4918-b1c8-7106f79a6cde?v=1778102496113",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://x.com/sajjadk",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://www.sajjadk.com"
+      },
+      "presentation_ids": [
+        "05bd2b94-9602-472b-82c2-48c2cacb8771"
+      ]
+    },
+    {
+      "id": "2dc21018-e35b-44bc-89b6-70ee275910bf",
+      "slug": "sarah-sachs",
+      "full_name": "Sarah Sachs",
+      "job_title": "Eng Lead, AI",
+      "employer": "Notion",
+      "bio": "Sarah Sachs is an engineering leader focused on shipping practical, high-leverage AI into real products at scale. Currently leading AI Modeling at Notion, she oversees four core areas of the company's modeling efforts: Reasoning and Agentic Orchestration, Core Model Engineering, Search and Ranking, and Data Specialists & Evals — driving the next generation of Notion AI across reasoning, retrieval, and end-to-end drafting and editing.\r\n\r\nBefore Notion, Sarah was Director of Engineering for AI and Infrastructure at Tome, where she led AI features reaching 18 million users, built end-to-end presentation generation, and owned the OpenAI partnership and model infrastructure. Prior to that she spent three years at Robinhood as Head of NLP & GenAI, setting company-wide generative AI strategy, transitioning a BERT-powered chatbot into a compliant generative assistant, and building NLP content moderation for a regulated fintech environment. Earlier in her career she was a founding ML engineer at Sunshine (formerly Lumi Labs) and a software engineer at Google, where she launched and patented Personal Score in Google Maps, featured at Google I/O 2018. Sarah holds a Sc.B. in Applied Mathematics–Computer Science from Brown University, graduating with a 4.0 CS GPA and the University Distinguished Thesis Award.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/2dc21018-e35b-44bc-89b6-70ee275910bf?v=1775532276719",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "@sarahmsachs",
+        "linkedin": "https://www.linkedin.com/in/sarahmsachs/",
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://www.sarahmsachs.com"
+      },
+      "presentation_ids": [
+        "cfbcf295-21d8-445b-9210-af0999b2acfd"
+      ]
+    },
+    {
+      "id": "7ac1a082-9fb6-4733-897d-0df8d66b9da1",
+      "slug": "sergey-lakovlev",
+      "full_name": "Sergey Iakovlev",
+      "job_title": "Lead ML Engineer",
+      "employer": "Canva",
+      "bio": "Sergey Iakovlev is a Lead ML Engineer at Canva, where he builds the AI-powered customer support experience that serves millions of users. His work spans the full stack of production LLM systems: retrieval architectures, QA chatbots, agentic systems for automated ticket resolution, and the evaluation and traceability infrastructure that makes deploying them safe at scale. Before Canva, Sergey worked on automated driving at Bosch and at several startups in Melbourne and Russia.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/7ac1a082-9fb6-4733-897d-0df8d66b9da1?v=1777849905686",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": null,
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "cbdec3ec-6e96-4869-9c36-2a5efb802222"
+      ]
+    },
+    {
+      "id": "4ed433ee-59b3-482d-b66c-edee77c4fc93",
+      "slug": "shivay-lamba",
+      "full_name": "Shivay Lamba",
+      "pronouns": "He/Him",
+      "job_title": "Senior AI/ML Engineer",
+      "employer": "Qualcomm",
+      "bio": "Shivay Lamba is a software engineer and open source contributor passionate about AI and edge computing. With experience across startups and enterprise tech, he focuses on simplifying complex technologies for developers. Shivay actively speaks at global conferences, organizes community events, and contributes to projects in cloud-native ecosystems, WebAssembly, and machine learning. He has also built and mentored educational programs to bridge gaps in emerging tech adoption. When not coding, he enjoys writing, traveling, and mentoring young technologists.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/4ed433ee-59b3-482d-b66c-edee77c4fc93?v=1778031011104",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://x.com/HowDevelop",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://shivaylamba.me/"
+      },
+      "presentation_ids": [
+        "4648eedf-32c5-409d-b66d-05fdc51c0e8c"
+      ]
+    },
+    {
+      "id": "93dc627a-2651-4fac-b021-0a5c19a4671f",
+      "slug": "simon-knox",
+      "full_name": "Simon Knox",
+      "pronouns": "he/him",
+      "job_title": "Computer Programmer",
+      "employer": "apartments.com.au",
+      "bio": "Simon is a computer programmer and computing enthusiast, based in Melbourne. He has spent decades working on interfaces and interactivity, mostly making apps and tools on the web. He believes in making things as simple and as silly as possible, but no simpler.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/93dc627a-2651-4fac-b021-0a5c19a4671f?v=1774136212748",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "@psimyn",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "psimyn.com"
+      },
+      "presentation_ids": [
+        "95c55704-e664-4457-ad96-a0542cb5c473"
+      ]
+    },
+    {
+      "id": "94d3fb30-ac78-493e-8529-163ecf6e63f9",
+      "slug": "stephen-sennett",
+      "full_name": "Stephen Sennett",
+      "pronouns": "he/him/his",
+      "job_title": "AWS Community Hero & Lead Consultant at V2 AI",
+      "employer": "V2 AI",
+      "bio": "Stephen Sennett is a cloud technology leader, content creator, educator, and speaker. He worked in the industry for over a decade across in a variety of roles, currently as a Lead Consultant with V2 AI. He holds high-level certifications across multiple technologies, has been recognised as an AWS Community Hero, spoken at events around the world, and authors technical content with A Cloud Guru (a Pluralsight company).\n\nOutside work, he is a dedicated volunteer across numerous organizations, primarily in the Emergency Management sector, serving around the country during several major national disasters.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/94d3fb30-ac78-493e-8529-163ecf6e63f9?v=1774136268298",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://linkedin.com/in/ssennettau/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "83e651e5-cccf-4e3b-b345-9400c2ad999a"
+      ]
+    },
+    {
+      "id": "45acc7e8-f224-4635-855e-924390d1604f",
+      "slug": "tanya-dixit",
+      "full_name": "Tanya Dixit",
+      "job_title": "Forward Deployed Engineer",
+      "employer": "Google",
+      "bio": "Tanya Dixit is a Forward Deployed Engineer at Google, partnering with enterprise customers across APAC to ship production AI systems. Her work spans agentic AI, voice AI, and multimodal architectures, with deep focus on banking, financial services, and healthcare. She also supports Google's university partnerships program in healthcare AI. Based in Sydney, Tanya writes and speaks regularly on moving voice and agent systems from demo to production reliability.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/45acc7e8-f224-4635-855e-924390d1604f?v=1778615102339",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/tanya-dixit-computer-vision/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "a68b4250-5485-4f43-8ce3-08500bc8a01b"
+      ]
+    },
+    {
+      "id": "23226729-c0e2-4692-a1a6-98704a038f43",
+      "slug": "theo-adis",
+      "full_name": "Theo Adis",
+      "pronouns": "he/him",
+      "job_title": "AI Systems Architect | Financial Operating Systems (Fintech)",
+      "employer": "Accelerate Funding Group",
+      "bio": "Theo Adis is an AI Systems Architect specialising in financial operating systems, regulatory AI, and private credit platforms. With over 30 years of experience delivering large-scale technology solutions across banking and government, he now focuses on building AI-driven platforms that embed compliance, risk, and decision intelligence directly into financial workflows. Theo is the founder of the Finteon OS and Velocity Funding Guru, where he is pioneering next-generation infrastructure for private lending and capital markets.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/23226729-c0e2-4692-a1a6-98704a038f43?v=1774136172856",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "@TheoAdisAI @FinteonOS @VelocityFundingGuru",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "theoadis.ai velocityfundingguru.com.au"
+      },
+      "presentation_ids": [
+        "38c12ec5-da3d-4491-8a32-27eca1e14fd0",
+        "95401c3b-ce1b-4993-b6bd-a1f0d76080df"
+      ]
+    },
+    {
+      "id": "9490204f-a75e-4b8d-a7d9-4455c2f3aed9",
+      "slug": "theodoros-galanos",
+      "full_name": "Theodoros Galanos",
+      "pronouns": "He/Him",
+      "job_title": "Generative AI Leader",
+      "employer": "Aurecon",
+      "bio": "Theodoros Galanos is the Generative AI Leader at Aurecon, where he leads AI engineering and the development of AI solutions to complex engineering problems. He contributes to initiatives such as Aurecon’s strategic partnership with Nomic to accelerate complex problem‑solving across the asset lifecycle. He is also the Chief Science Officer and Co‑Founder of infrared city, leading the development of AI‑powered environmental simulation tools that make advanced environmental analysis accessible to designers and engineers. His background spans research roles at the Austrian Institute of Technology, the creation of Archi|text, first LLM-driven architectural design approach, and published work in computational design and machine learning.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/9490204f-a75e-4b8d-a7d9-4455c2f3aed9?v=1774484668070",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/theodorosgalanos, x.com/TheodoreGalanos",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "0599f7f9-dfe3-4dbb-9b72-3184e5b5af9e"
+      ]
+    },
+    {
+      "id": "9e29f1b0-f799-4187-94c5-d55590f4d7db",
+      "slug": "vamsi-ramakrishnan",
+      "full_name": "Vamsi Ramakrishnan",
+      "job_title": "AI Lead Engineer, APAC",
+      "employer": "Google Cloud",
+      "bio": "Vamsi Ramakrishnan is the AI Lead Engineer for APAC at Google Cloud, where he leads the technical and customer engineering practice for AI across the region, helping organisations move from prototype to production with modern agent and LLM infrastructure. His work spans the full stack of applied AI — from agent execution frameworks like ADK, LangGraph and CrewAI, through to context engineering, evaluation, and the operational realities of running agents at scale.\r\n\r\nVamsi writes and speaks regularly about where the agent ecosystem is heading, drawing on lessons from compiler design, distributed systems, and even legal philosophy to think about how we architect AI systems that actually hold up in production. He brings a builder's perspective to a field that often gets stuck at the demo stage.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/9e29f1b0-f799-4187-94c5-d55590f4d7db?v=1778544756878",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "@mrvemzi",
+        "linkedin": "https://www.linkedin.com/in/vamsiramakrishnan/",
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://mrvemzi.notion.site"
+      },
+      "presentation_ids": [
+        "101adb53-3e1c-47df-b4d8-69692ec3f99f"
+      ]
+    },
+    {
+      "id": "afbe86dd-6e52-44e7-8b17-533343f33d29",
+      "slug": "yasith-fernando",
+      "full_name": "Yasith Fernando",
+      "pronouns": "He/him",
+      "job_title": "Staff Software Engineer",
+      "bio": "Yasith is a software engineer based in Melbourne, Australia, with a passion for building things and experimenting with the latest AI tools. He works at Zendesk Australia, where he's currently developing the AI App Builder — a tool that brings a Lovable-style, AI-powered app creation experience to the Zendesk ecosystem.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/afbe86dd-6e52-44e7-8b17-533343f33d29?v=1774136223185",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://x.com/meaningful",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://www.yasithfernando.com"
+      },
+      "presentation_ids": [
+        "5de6fa13-5f49-418f-88f2-5bcf5eb04ea9"
+      ]
+    },
+    {
+      "id": "a880e588-7db7-4359-a9eb-615ad75d9fcc",
+      "slug": "yicheng-guo",
+      "full_name": "Yicheng Guo",
+      "pronouns": "He/Him",
+      "job_title": "Senior Machine Learning Engineer",
+      "employer": "REA Group",
+      "bio": "Yicheng Guo is a Senior Machine Learning Engineer at REA Group, delivering AI features for Australia’s largest property portal, realestate.com.au. He previously worked at Google and spent a decade in DevOps/SRE and systems engineering, specialising in productionising and scaling AI products to millions of users with a focus on reliability and security.\n\nAt REA, Yicheng led engineering for generative AI features, agentic systems, and image-processing pipelines, and helped build the evaluation stack that enables safe deployment to millions of property seekers. He prioritises practical, production-grade solutions over theory.\n\nYicheng regularly shares lessons from deploying AI at scale through internal and external conferences.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/a880e588-7db7-4359-a9eb-615ad75d9fcc?v=1774136270979",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://www.linkedin.com/in/yichengguo/",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": "https://blog.beyondintelligence.dev/"
+      },
+      "presentation_ids": [
+        "924ae0be-d390-45af-b60b-ff7c0120fac0"
+      ]
+    },
+    {
+      "id": "574dd643-d069-46d4-9d9f-1bf09d2b1652",
+      "slug": "zixuan-li",
+      "full_name": "Zixuan Li",
+      "job_title": "Head of Z.ai",
+      "employer": "Z.ai",
+      "bio": "Zixuan Li is the Head of Z.ai, where he leads global product strategy, API development, model releases, research exploration, and branding. Prior to Z.ai, he was a researcher at MIT focusing on AI alignment and generative AI applications. Earlier in his career, he worked as a data scientist at Apple and served as product director at a legal tech startup. Zixuan holds a Master of Science in Information Technology from Carnegie Mellon University and a Master of Science in Management Studies from MIT.",
+      "photo_url": "https://speakers.webdirections.org/photos/photo/574dd643-d069-46d4-9d9f-1bf09d2b1652?v=1780355213516",
+      "speaker_type": "Speaker",
+      "social": {
+        "social_media": "https://x.com/ZixuanLi_",
+        "linkedin": null,
+        "bluesky": null,
+        "mastodon": null,
+        "website": null
+      },
+      "presentation_ids": [
+        "ea1aae09-9f95-451b-b4ef-8e431f3c50e5"
+      ]
+    }
+  ]
+}

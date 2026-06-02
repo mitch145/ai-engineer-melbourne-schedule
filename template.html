@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Engineer Melbourne 2026 — Schedule</title>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b22; --panel2:#1c2330; --line:#2b3340;
+    --ink:#e6edf3; --muted:#8b98a9; --accent:#7c5cff;
+    --keynote:#f5a623; --hallway:#5cc8ff; --se:#4ade80; --lead:#ff6b9d; --ai:#a78bfa; --all:#fbbf24; --workshop:#f87171;
+    --rowH:1.7px; /* px per minute */
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  body{height:100vh;display:flex;flex-direction:column;overflow:hidden}
+  a{color:var(--accent)}
+  header.top{flex:none;padding:22px 26px 14px;border-bottom:1px solid var(--line);background:var(--bg);z-index:50}
+  header.top h1{margin:0 0 4px;font-size:22px;letter-spacing:-.3px}
+  header.top .sub{color:var(--muted);font-size:13px}
+  .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:14px}
+  .daytabs{display:flex;gap:6px;margin-right:10px}
+  .daytabs button,.trackchip{cursor:pointer;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:6px 12px;border-radius:999px;font-size:13px}
+  .daytabs button.active{background:var(--accent);border-color:var(--accent);color:#fff}
+  .trackfilters{display:flex;flex-wrap:wrap;gap:6px}
+  .trackchip{display:inline-flex;align-items:center;gap:7px;user-select:none}
+  .trackchip .dot{width:9px;height:9px;border-radius:50%;background:var(--c)}
+  .trackchip.off{opacity:.38}
+  .search{margin-left:auto;display:flex;gap:8px;align-items:center}
+  .search input{background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:7px 11px;font-size:13px;width:220px}
+  .legendnote{color:var(--muted);font-size:12px}
+
+  main{flex:1;min-height:0;padding:18px 26px;display:flex}
+  .gridwrap{flex:1;min-height:0;overflow:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+  .grid{display:grid;position:relative;min-width:max-content}
+  /* first column = time gutter */
+  .col-head{position:sticky;top:0;z-index:20;background:var(--panel2);border-bottom:1px solid var(--line);padding:11px 10px;font-weight:600;font-size:13px;display:flex;align-items:center;gap:8px;white-space:nowrap}
+  .col-head .dot{width:10px;height:10px;border-radius:50%;background:var(--c)}
+  .timehead{position:sticky;left:0;z-index:30;background:var(--panel2);border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .timecol{position:sticky;left:0;z-index:15;background:var(--panel);border-right:1px solid var(--line)}
+  .timelabel{position:absolute;right:8px;font-size:11px;color:var(--muted);transform:translateY(-50%);white-space:nowrap}
+  .track-area{position:relative;border-right:1px solid var(--line)}
+  .hourline{position:absolute;left:0;right:0;height:0;border-top:1px dashed #232b37;z-index:1}
+
+  .session{position:absolute;left:5px;right:5px;border-radius:9px;padding:7px 9px;overflow:hidden;
+            background:var(--panel2);border:1px solid var(--line);border-left:4px solid var(--c);
+            box-shadow:0 1px 3px #0006;cursor:pointer;transition:transform .08s,box-shadow .08s}
+  .session:hover{transform:translateY(-1px);box-shadow:0 4px 14px #0009;z-index:8;background:#222b3a}
+  .session .t{font-weight:600;font-size:13px;line-height:1.25;margin:0 0 3px}
+  .session .meta{font-size:11px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+  .session .badge{font-size:9.5px;text-transform:uppercase;letter-spacing:.5px;padding:1px 6px;border-radius:999px;background:#0006;border:1px solid var(--line);color:var(--muted)}
+  .session .spk{font-size:11.5px;color:#c6d0dc;margin-top:3px;line-height:1.25}
+  .session.tiny{padding:3px 9px}
+  .session.tiny .t{font-size:11.5px;margin:0}
+  .session.tiny .meta,.session.tiny .spk{display:none}
+  .session.dim{opacity:.18;filter:grayscale(.6)}
+  .session.hit{outline:2px solid var(--accent);outline-offset:0}
+
+  .nowline{position:absolute;left:0;right:0;height:0;border-top:2px solid #ff4d4d;z-index:12;box-shadow:0 0 8px #ff4d4d}
+  .nowline::before{content:"NOW";position:absolute;left:4px;top:-8px;font-size:9px;font-weight:700;color:#ff4d4d;background:var(--bg);padding:0 4px}
+
+  /* modal */
+  .modal{position:fixed;inset:0;background:#000a;display:none;align-items:center;justify-content:center;z-index:200;padding:20px}
+  .modal.open{display:flex}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;max-width:560px;width:100%;max-height:85vh;overflow:auto;padding:22px 24px}
+  .card h2{margin:0 0 6px;font-size:20px}
+  .card .cmeta{color:var(--muted);font-size:13px;margin-bottom:14px;display:flex;flex-wrap:wrap;gap:8px}
+  .card .desc{font-size:14px;line-height:1.55;color:#d4dce6;white-space:pre-wrap}
+  .card .spklist{margin-top:16px;display:flex;flex-direction:column;gap:12px}
+  .card .spkrow{display:flex;gap:11px;align-items:center}
+  .card .spkrow img{width:42px;height:42px;border-radius:50%;object-fit:cover;background:#333}
+  .card .spkrow .nm{font-weight:600;font-size:14px}
+  .card .spkrow .jt{font-size:12px;color:var(--muted)}
+  .card .close{float:right;cursor:pointer;border:none;background:var(--panel2);color:var(--ink);border-radius:8px;width:30px;height:30px;font-size:16px}
+  @media (max-width:640px){.search input{width:140px}}
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>AI Engineer Melbourne 2026</h1>
+  <div class="sub">Building, deploying &amp; scaling AI systems in production · Melbourne, Australia · <a href="https://webdirections.org/ai-engineer/" target="_blank" rel="noopener">webdirections.org</a></div>
+  <div class="controls">
+    <div class="daytabs" id="daytabs"></div>
+    <div class="trackfilters" id="trackfilters"></div>
+    <div class="search">
+      <input id="search" type="search" placeholder="Search talks / speakers…" autocomplete="off">
+      <span class="legendnote" id="count"></span>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="gridwrap"><div class="grid" id="grid"></div></div>
+</main>
+
+<div class="modal" id="modal"><div class="card" id="card"></div></div>
+
+<script id="DATA" type="application/json">__DATA__</script>
+<script>
+const DATA = JSON.parse(document.getElementById('DATA').textContent);
+const TODAY = "2026-06-03"; // for the NOW line
+const TRACK_COLORS = {
+  "Keynote":"var(--keynote)","Hallway":"var(--hallway)","Software Engineering":"var(--se)",
+  "Leadership":"var(--lead)","AI Engineering":"var(--ai)","All":"var(--all)","Workshop":"var(--workshop)"
+};
+const PXMIN = 1.7;            // pixels per minute
+const HEAD_H = 46;           // column header height
+const toMin = t => { const [h,m]=t.split(':').map(Number); return h*60+m; };
+const fmt = t => { let [h,m]=t.split(':').map(Number); const ap=h>=12?'pm':'am'; h=h%12||12; return `${h}:${String(m).padStart(2,'0')}${ap}`; };
+
+let curDay = 0;
+const trackOff = new Set();
+
+function build(){
+  buildDayTabs();
+  render();
+}
+
+function buildDayTabs(){
+  const wrap=document.getElementById('daytabs');
+  wrap.innerHTML='';
+  DATA.days.forEach((d,i)=>{
+    const b=document.createElement('button');
+    b.textContent=d.label.replace(/,.*/,'').replace(/\s\w+\s/,' ').trim().length?d.label.split(',')[0]:d.date;
+    b.textContent=d.label.split(',').slice(0,2).join(',');
+    b.className=i===curDay?'active':'';
+    b.onclick=()=>{curDay=i;buildDayTabs();render();};
+    wrap.appendChild(b);
+  });
+}
+
+function buildTrackFilters(tracks){
+  const wrap=document.getElementById('trackfilters');
+  wrap.innerHTML='';
+  tracks.forEach(t=>{
+    const c=document.createElement('span');
+    c.className='trackchip'+(trackOff.has(t.name)?' off':'');
+    c.style.setProperty('--c',TRACK_COLORS[t.name]||'#888');
+    c.innerHTML=`<span class="dot"></span>${t.name}`;
+    c.onclick=()=>{trackOff.has(t.name)?trackOff.delete(t.name):trackOff.add(t.name);render();};
+    wrap.appendChild(c);
+  });
+}
+
+function render(){
+  const day=DATA.days[curDay];
+  const tracks=day.tracks.filter(t=>!trackOff.has(t.name));
+  buildTrackFilters(day.tracks);
+
+  // time bounds across visible (use all tracks for stable axis)
+  let lo=24*60, hi=0;
+  day.tracks.forEach(t=>t.sessions.forEach(s=>{lo=Math.min(lo,toMin(s.start_time));hi=Math.max(hi,toMin(s.end_time));}));
+  lo=Math.floor(lo/60)*60; hi=Math.ceil(hi/60)*60;
+  const totalH=(hi-lo)*PXMIN;
+
+  const grid=document.getElementById('grid');
+  grid.style.gridTemplateColumns=`64px repeat(${tracks.length}, minmax(180px, 1fr))`;
+  grid.style.gridTemplateRows=`${HEAD_H}px ${totalH}px`;
+  grid.innerHTML='';
+
+  // corner
+  const corner=document.createElement('div');corner.className='col-head timehead';corner.textContent='Time';
+  grid.appendChild(corner);
+  // track headers
+  tracks.forEach(t=>{
+    const h=document.createElement('div');h.className='col-head';
+    h.style.setProperty('--c',TRACK_COLORS[t.name]||'#888');
+    h.innerHTML=`<span class="dot"></span>${t.name}`;
+    grid.appendChild(h);
+  });
+  // time gutter
+  const tcol=document.createElement('div');tcol.className='timecol';tcol.style.position='relative';
+  for(let m=lo;m<=hi;m+=60){
+    const lab=document.createElement('div');lab.className='timelabel';
+    lab.style.top=((m-lo)*PXMIN)+'px';
+    lab.textContent=fmt(`${Math.floor(m/60)}:${String(m%60).padStart(2,'0')}`);
+    tcol.appendChild(lab);
+  }
+  grid.appendChild(tcol);
+
+  const q=(document.getElementById('search').value||'').toLowerCase().trim();
+  let visibleCount=0, hitCount=0;
+
+  tracks.forEach(t=>{
+    const area=document.createElement('div');area.className='track-area';area.style.position='relative';
+    // hour lines
+    for(let m=lo;m<=hi;m+=60){
+      const hl=document.createElement('div');hl.className='hourline';hl.style.top=((m-lo)*PXMIN)+'px';area.appendChild(hl);
+    }
+    t.sessions.forEach(s=>{
+      const top=(toMin(s.start_time)-lo)*PXMIN;
+      const h=Math.max((toMin(s.end_time)-toMin(s.start_time))*PXMIN, 22);
+      const el=document.createElement('div');
+      el.className='session'+(h<40?' tiny':'');
+      el.style.top=top+'px';el.style.height=(h-4)+'px';
+      el.style.setProperty('--c',TRACK_COLORS[t.name]||'#888');
+      const spk=(s.speakers||[]).map(x=>x.full_name).filter(Boolean).join(', ');
+      el.innerHTML=`<p class="t">${esc(s.title)}</p>
+        <div class="meta"><span class="badge">${s.type}</span><span>${fmt(s.start_time)}–${fmt(s.end_time)}</span>${s.location?`<span>· ${esc(s.location)}</span>`:''}</div>
+        ${spk?`<div class="spk">${esc(spk)}</div>`:''}`;
+      el.onclick=()=>openModal(s,t.name);
+      // search highlight
+      if(q){
+        const hay=(s.title+' '+spk+' '+(s.description||'')+' '+s.type).toLowerCase();
+        if(hay.includes(q)){el.classList.add('hit');hitCount++;} else {el.classList.add('dim');}
+      }
+      area.appendChild(el);
+      visibleCount++;
+    });
+
+    // NOW line on today's day
+    if(day.date===TODAY){
+      const now=new Date();
+      const nm=now.getHours()*60+now.getMinutes();
+      if(nm>=lo&&nm<=hi){
+        const nl=document.createElement('div');nl.className='nowline';nl.style.top=((nm-lo)*PXMIN)+'px';area.appendChild(nl);
+      }
+    }
+    grid.appendChild(area);
+  });
+
+  document.getElementById('count').textContent = q ? `${hitCount} match${hitCount===1?'':'es'}` : `${visibleCount} sessions`;
+}
+
+function openModal(s,track){
+  const card=document.getElementById('card');
+  const spk=(s.speakers||[]).map(x=>`
+    <div class="spkrow">
+      ${x.photo_url?`<img src="${x.photo_url}" alt="" onerror="this.style.visibility='hidden'">`:'<img alt="">'}
+      <div><div class="nm">${esc(x.full_name||'')}</div><div class="jt">${esc([x.job_title,x.employer].filter(Boolean).join(' · '))}</div></div>
+    </div>`).join('');
+  card.innerHTML=`<button class="close" onclick="closeModal()">×</button>
+    <h2>${esc(s.title)}</h2>
+    <div class="cmeta"><span class="badge">${s.type}</span><span>${track}</span><span>${fmt(s.start_time)}–${fmt(s.end_time)}</span>${s.location?`<span>${esc(s.location)}</span>`:''}</div>
+    ${s.description?`<div class="desc">${esc(s.description)}</div>`:''}
+    ${spk?`<div class="spklist">${spk}</div>`:''}`;
+  document.getElementById('modal').classList.add('open');
+}
+function closeModal(){document.getElementById('modal').classList.remove('open');}
+document.getElementById('modal').onclick=e=>{if(e.target.id==='modal')closeModal();};
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+document.getElementById('search').addEventListener('input',render);
+function esc(s){return (s==null?'':String(s)).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+
+build();
+</script>
+</body>
+</html>
